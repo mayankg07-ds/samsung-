@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% block title %}Roadmap{% if path %} – {{ path.target.course_title }}{% endif %}{% endblock %}
+{% block header_title %}Learning Roadmap{% endblock %}
+
+{% block content %}
+{% if not path %}
+<div class="text-center py-24">
+    <p class="text-2xl text-gray-400 mb-4">Course not found</p>
+    <a href="/" class="bg-purple-600 px-6 py-3 rounded-lg hover:bg-purple-700 transition">← Back to Home</a>
+</div>
+{% else %}
+
+<!-- ── Summary banner ────────────────────────────────────────────────── -->
+<div class="bg-gray-800 rounded-2xl p-6 mb-8 shadow-xl">
+    <div class="flex flex-wrap gap-6 items-center justify-between">
+        <div>
+            <h2 class="text-2xl font-bold text-purple-300 mb-1">{{ path.target.course_title }}</h2>
+            <div class="flex gap-2 flex-wrap mt-2">
+                <span class="text-sm bg-blue-700 px-3 py-1 rounded-full">{{ path.target.category }}</span>
+                <span class="text-sm bg-yellow-700 px-3 py-1 rounded-full">{{ path.target.course_difficulty }}</span>
+                <span class="text-sm bg-gray-700 px-3 py-1 rounded-full">⭐ {{ path.target.course_rating }}</span>
+                <span class="text-sm bg-gray-700 px-3 py-1 rounded-full">{{ path.target.est_hours }}h</span>
+                <span class="text-sm bg-gray-700 px-3 py-1 rounded-full">{{ path.target.course_organization }}</span>
+            </div>
+        </div>
+        <div class="text-right">
+            <p class="text-sm text-gray-400 mb-1">Prerequisites: {{ path.flat_path | length }}</p>
+            <p class="text-sm text-gray-400">Total hours: {{ path.total_hours }}h</p>
+        </div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="mt-4">
+        <div class="flex justify-between text-sm mb-1">
+            <span class="text-gray-400">Progress</span>
+            <span id="progress-text" class="text-green-400 font-bold">0%</span>
+        </div>
+        <div class="w-full bg-gray-700 rounded-full h-3">
+            <div id="progress-bar" class="bg-purple-500 h-3 rounded-full progress-bar-inner" style="width:0%"></div>
+        </div>
+    </div>
+
+    {% if path.cycle_detected %}
+    <div class="mt-4 bg-yellow-900 border border-yellow-600 rounded-lg px-4 py-3 text-yellow-300 text-sm">
+        ⚠️ <strong>Circular Dependency Detected</strong> – Some prerequisites may reference each other. Path shown is best-effort.
+    </div>
+    {% endif %}
+</div>
+
+<!-- ── Prerequisite levels ────────────────────────────────────────────── -->
+{% if path.levels %}
+<h2 class="text-2xl font-bold mb-6 text-cyan-400">Learning Path</h2>
+
+{% for level in path.levels %}
+<div class="mb-6 fade-in-up" style="animation-delay: {{ loop.index0 * 0.1 }}s">
+    <div class="flex items-center gap-3 mb-3">
+        <div class="bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full">Level {{ loop.index }}</div>
+        <div class="flex-1 h-px bg-gray-700"></div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        {% for course in level %}
+        <div class="course-card bg-gray-800 rounded-xl p-4 border border-gray-700 hover:border-purple-500 transition"
+             data-course-id="{{ course.course_id }}"
+             data-course='{{ course | tojson }}'>
+            <div class="flex items-start justify-between mb-2">
+                <h4 class="font-semibold text-sm leading-tight flex-1">{{ course.course_title }}</h4>
+                <input type="checkbox"
+                       class="ml-2 mt-0.5 course-checkbox accent-purple-500 w-4 h-4 cursor-pointer"
+                       data-course-id="{{ course.course_id }}"
+                       onchange="handleCheck(this, {{ course | tojson }})">
+            </div>
+            <div class="flex gap-1 flex-wrap mb-2">
+                <span class="text-xs bg-blue-800 px-2 py-0.5 rounded">{{ course.category }}</span>
+                <span class="text-xs
+                    {% if course.course_difficulty == 'Beginner' %}bg-green-800
+                    {% elif course.course_difficulty == 'Intermediate' %}bg-yellow-800
+                    {% else %}bg-red-800{% endif %} px-2 py-0.5 rounded">
+                    {{ course.course_difficulty }}
+                </span>
+            </div>
+            <p class="text-xs text-gray-400">⭐ {{ course.course_rating }}  ·  {{ course.est_hours }}h</p>
+            <p class="text-xs text-gray-500 mt-1">{{ course.course_organization }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    {% if not loop.last %}
+    <div class="level-connector mt-4"></div>
+    {% endif %}
+</div>
+{% endfor %}
+
+{% else %}
+<div class="bg-gray-800 rounded-2xl p-8 text-center text-gray-400">
+    <p class="text-5xl mb-4">✅</p>
+    <p class="text-xl font-semibold">No prerequisites required!</p>
+    <p class="text-sm mt-2">You can start this course directly.</p>
+</div>
+{% endif %}
+
+<!-- ── Target course at bottom ─────────────────────────────────────────── -->
+<div class="mt-8 flex justify-center">
+    <div class="bg-gradient-to-r from-purple-800 to-cyan-800 rounded-2xl p-6 text-center max-w-md w-full shadow-xl">
+        <p class="text-xs text-gray-300 mb-1 uppercase tracking-widest">Your Destination</p>
+        <h3 class="text-xl font-bold mb-1">{{ path.target.course_title }}</h3>
+        <p class="text-sm text-gray-300 mb-3">{{ path.target.category }} · {{ path.target.course_difficulty }}</p>
+        <p class="text-sm">⭐ {{ path.target.course_rating }}  ·  {{ path.target.est_hours }}h  ·  {{ path.target.course_organization }}</p>
+    </div>
+</div>
+
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+const TOTAL_CARDS = document.querySelectorAll('.course-card[data-course-id]').length;
+
+function getCompleted() {
+    return JSON.parse(localStorage.getItem('completed_courses') || '[]');
+}
+
+function updateProgress() {
+    const completed = getCompleted();
+    const completedIds = completed.map(c => c.course_id || c);
+    const checked = document.querySelectorAll('.course-checkbox');
+    let count = 0;
+    checked.forEach(cb => {
+        const id = parseInt(cb.dataset.courseId);
+        if (completedIds.includes(id)) { cb.checked = true; count++; }
+    });
+    const pct = TOTAL_CARDS ? Math.round((count / TOTAL_CARDS) * 100) : 0;
+    document.getElementById('progress-bar').style.width = pct + '%';
+    document.getElementById('progress-text').textContent = pct + '%';
+}
+
+function handleCheck(checkbox, courseData) {
+    toggleCompleted(courseData.course_id, courseData);
+}
+
+// Restore completed state on load
+document.addEventListener('DOMContentLoaded', updateProgress);
+</script>
+{% endblock %}

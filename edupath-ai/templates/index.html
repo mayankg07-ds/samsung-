@@ -1,0 +1,250 @@
+{% extends "base.html" %}
+{% block title %}EduPath AI – Home{% endblock %}
+{% block header_title %}Intelligent Career Learning Navigator{% endblock %}
+
+{% block content %}
+<!-- ── Hero ──────────────────────────────────────────────────────────────── -->
+<section class="mb-16 text-center">
+    <h1 class="text-5xl font-extrabold mb-4 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
+        EduPath AI
+    </h1>
+    <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
+        Master any skill with AI-powered course recommendations and intelligent learning paths
+    </p>
+
+    <!-- Search bar -->
+    <div class="max-w-2xl mx-auto bg-gray-800 rounded-2xl p-6 shadow-xl">
+        <div class="flex gap-4 mb-4">
+            <label class="flex items-center gap-2 cursor-pointer">
+                <input type="radio" name="search-type" value="id" class="accent-purple-500"> Search by ID
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer">
+                <input type="radio" name="search-type" value="title" checked class="accent-purple-500"> Search by Title
+            </label>
+        </div>
+        <div class="flex gap-3">
+            <input id="search-input" type="text" placeholder="e.g. python, 1003 …"
+                   class="flex-1 bg-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-gray-500"
+                   onkeydown="if(event.key==='Enter') searchCourse()">
+            <button onclick="searchCourse()"
+                    class="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-lg font-semibold transition">
+                Search
+            </button>
+        </div>
+        <div id="search-results" class="mt-4 space-y-3 max-h-96 overflow-y-auto"></div>
+    </div>
+</section>
+
+<!-- ── Career Mode ──────────────────────────────────────────────────────── -->
+<section id="recommend-section" class="mb-16">
+    <h2 class="text-3xl font-bold mb-6">🚀 Career Mode</h2>
+    <div class="bg-gray-800 rounded-2xl p-6 shadow-xl">
+        <p class="text-gray-400 mb-4">Fast-track your future – get a curated roadmap for your target career.</p>
+        <div class="flex gap-4 flex-wrap">
+            <select id="career-goal" class="flex-1 bg-gray-700 rounded-lg px-4 py-3 text-white">
+                <option value="">-- Select a career goal --</option>
+                <option>Data Scientist</option>
+                <option>Full Stack Developer</option>
+                <option>AI Engineer</option>
+                <option>Cloud Engineer</option>
+                <option>Cybersecurity Analyst</option>
+            </select>
+            <button onclick="generateCareerRoadmap()"
+                    class="bg-cyan-600 hover:bg-cyan-700 px-6 py-3 rounded-lg font-semibold transition">
+                Generate Roadmap
+            </button>
+        </div>
+        <div id="career-results" class="mt-6"></div>
+    </div>
+</section>
+
+<!-- ── Quick Actions ────────────────────────────────────────────────────── -->
+<section class="mb-16">
+    <h2 class="text-3xl font-bold mb-6">⚡ Quick Actions</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <a href="/dashboard"
+           class="course-card bg-gray-800 rounded-2xl p-6 border border-gray-700 hover:border-purple-500 transition flex flex-col gap-3">
+            <span class="text-4xl">📊</span>
+            <h3 class="text-xl font-bold">View Dashboard</h3>
+            <p class="text-gray-400 text-sm">Explore course analytics, charts, and statistics.</p>
+        </a>
+        <a href="/chat"
+           class="course-card bg-gray-800 rounded-2xl p-6 border border-gray-700 hover:border-cyan-500 transition flex flex-col gap-3">
+            <span class="text-4xl">💬</span>
+            <h3 class="text-xl font-bold">Chat with AI</h3>
+            <p class="text-gray-400 text-sm">Get personalised guidance from EduPath AI assistant.</p>
+        </a>
+        <button onclick="document.getElementById('skill-gap').scrollIntoView({behavior:'smooth'})"
+                class="course-card bg-gray-800 rounded-2xl p-6 border border-gray-700 hover:border-yellow-500 transition flex flex-col gap-3 text-left">
+            <span class="text-4xl">🔍</span>
+            <h3 class="text-xl font-bold">Skill Gap Analysis</h3>
+            <p class="text-gray-400 text-sm">Discover what you're missing for your target course.</p>
+        </button>
+    </div>
+</section>
+
+<!-- ── Skill Gap Analyser ────────────────────────────────────────────────── -->
+<section id="skill-gap" class="mb-16">
+    <h2 class="text-3xl font-bold mb-6">🔍 Skill Gap Analyser</h2>
+    <div class="bg-gray-800 rounded-2xl p-6 shadow-xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div>
+                <label class="block text-sm text-gray-400 mb-2">Target Course ID</label>
+                <input id="target-course-id" type="number" placeholder="e.g. 1010"
+                       class="w-full bg-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-gray-500">
+            </div>
+            <div>
+                <label class="block text-sm text-gray-400 mb-2">Completed Course IDs (comma-separated)</label>
+                <input id="completed-courses-input" type="text" placeholder="e.g. 1001, 1002, 1003"
+                       class="w-full bg-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-gray-500">
+            </div>
+        </div>
+        <button onclick="analyzeSkillGap()"
+                class="w-full bg-purple-600 hover:bg-purple-700 py-3 rounded-lg font-semibold transition">
+            Analyse Skill Gap
+        </button>
+
+        <div id="gap-results" class="mt-6 hidden">
+            <!-- Progress -->
+            <div class="mb-6">
+                <div class="flex justify-between text-sm mb-2">
+                    <span>Your Progress</span>
+                    <span id="gap-progress-text" class="font-bold text-green-400">0%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-4">
+                    <div id="gap-progress-bar" class="bg-green-500 h-4 rounded-full progress-bar-inner" style="width:0%"></div>
+                </div>
+            </div>
+
+            <h3 class="text-xl font-bold mb-3 text-red-400">Missing Prerequisites</h3>
+            <div id="missing-courses-list" class="space-y-2 mb-6"></div>
+
+            <h3 class="text-xl font-bold mb-3 text-cyan-400">Recommended Next Steps</h3>
+            <div id="next-steps-list" class="space-y-2"></div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+/* ── Helpers ──────────────────────────────────────────────────────────── */
+function difficultyColor(d) {
+    return d === 'Beginner' ? 'bg-green-700' : d === 'Intermediate' ? 'bg-yellow-700' : 'bg-red-700';
+}
+
+function courseCard(c) {
+    return `
+    <div class="course-card bg-gray-700 rounded-xl p-4 flex flex-col gap-2">
+        <h4 class="font-bold text-sm leading-tight">${c.course_title}</h4>
+        <div class="flex gap-2 flex-wrap">
+            <span class="text-xs bg-blue-700 px-2 py-0.5 rounded">${c.category}</span>
+            <span class="text-xs ${difficultyColor(c.course_difficulty)} px-2 py-0.5 rounded">${c.course_difficulty}</span>
+        </div>
+        <p class="text-xs text-gray-400">⭐ ${c.course_rating}  ·  ${c.est_hours}h  ·  ${c.course_organization}</p>
+        <a href="/roadmap/${c.course_id}" class="mt-1 text-xs bg-purple-600 hover:bg-purple-700 text-center py-1.5 rounded transition">
+            View Roadmap →
+        </a>
+    </div>`;
+}
+
+/* ── Search ───────────────────────────────────────────────────────────── */
+async function searchCourse() {
+    const type = document.querySelector('input[name="search-type"]:checked').value;
+    const query = document.getElementById('search-input').value.trim();
+    if (!query) return;
+
+    const url = type === 'id' ? `/api/search?course_id=${query}` : `/api/search?title=${encodeURIComponent(query)}`;
+    const res = await fetch(url);
+    const data = await res.json();
+
+    const container = document.getElementById('search-results');
+    if (!data.success) {
+        container.innerHTML = `<p class="text-red-400 text-sm">${data.error}</p>`;
+        return;
+    }
+
+    const courses = Array.isArray(data.data) ? data.data : [data.data];
+    if (courses.length === 0) {
+        container.innerHTML = `<p class="text-gray-400 text-sm">No results found.</p>`;
+        return;
+    }
+
+    container.innerHTML = `<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">${courses.map(courseCard).join('')}</div>`;
+}
+
+/* ── Career Mode ──────────────────────────────────────────────────────── */
+async function generateCareerRoadmap() {
+    const goal = document.getElementById('career-goal').value;
+    if (!goal) { alert('Please select a career goal.'); return; }
+
+    const res = await fetch('/api/recommend/career', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ career_goal: goal })
+    });
+    const data = await res.json();
+    const container = document.getElementById('career-results');
+
+    if (!data.success) {
+        container.innerHTML = `<p class="text-red-400">${data.error}</p>`;
+        return;
+    }
+
+    let html = `<h3 class="text-xl font-bold mb-4 text-cyan-400">${goal} Roadmap</h3>`;
+    for (const [cat, courses] of Object.entries(data.data)) {
+        if (!courses.length) continue;
+        html += `<div class="mb-6">
+            <h4 class="text-lg font-semibold mb-3 text-purple-300">${cat}</h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                ${courses.map(courseCard).join('')}
+            </div>
+        </div>`;
+    }
+    container.innerHTML = html;
+}
+
+/* ── Skill Gap ────────────────────────────────────────────────────────── */
+async function analyzeSkillGap() {
+    const targetId = parseInt(document.getElementById('target-course-id').value);
+    const completedRaw = document.getElementById('completed-courses-input').value;
+    const completed = completedRaw.split(',').map(s => parseInt(s.trim())).filter(n => !isNaN(n));
+
+    if (!targetId) { alert('Please enter a target course ID.'); return; }
+
+    const res = await fetch('/api/skill-gap', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ target_course_id: targetId, completed_course_ids: completed })
+    });
+    const data = await res.json();
+
+    if (!data.success) { alert(data.error); return; }
+
+    const d = data.data;
+    document.getElementById('gap-results').classList.remove('hidden');
+    document.getElementById('gap-progress-text').textContent = d.progress_percent + '%';
+    document.getElementById('gap-progress-bar').style.width = d.progress_percent + '%';
+
+    document.getElementById('missing-courses-list').innerHTML =
+        d.missing_courses.length
+        ? d.missing_courses.map(c => `
+            <div class="bg-gray-700 p-3 rounded-lg flex justify-between items-center">
+                <div>
+                    <p class="font-semibold text-sm">${c.course_title}</p>
+                    <p class="text-xs text-gray-400">${c.category} · ${c.course_difficulty}</p>
+                </div>
+                <span class="text-sm text-gray-400">${c.est_hours}h</span>
+            </div>`).join('')
+        : `<p class="text-green-400">🎉 No missing prerequisites! You're ready.</p>`;
+
+    document.getElementById('next-steps-list').innerHTML =
+        d.next_recommended.map(c => `
+            <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg border border-purple-700">
+                <h4 class="font-bold mb-1">${c.course_title}</h4>
+                <p class="text-sm text-gray-400 mb-2">${c.category} · ${c.course_difficulty} · ${c.est_hours}h</p>
+                <a href="/roadmap/${c.course_id}" class="text-purple-400 text-sm hover:underline">View Roadmap →</a>
+            </div>`).join('');
+}
+</script>
+{% endblock %}

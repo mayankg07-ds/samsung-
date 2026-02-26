@@ -1,0 +1,172 @@
+{% extends "base.html" %}
+{% block title %}EduPath AI – Chat{% endblock %}
+{% block header_title %}AI Chat Assistant{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto flex flex-col h-[calc(100vh-8rem)]">
+
+    <!-- Header -->
+    <div class="bg-gray-800 rounded-t-2xl p-4 flex items-center gap-3 border-b border-gray-700">
+        <div class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center text-xl">🤖</div>
+        <div>
+            <p class="font-bold">EduPath AI Assistant</p>
+            <p class="text-xs text-green-400">● Online</p>
+        </div>
+    </div>
+
+    <!-- Chat messages -->
+    <div id="chat-messages"
+         class="flex-1 overflow-y-auto bg-gray-800 p-4 space-y-4"
+         style="scroll-behavior: smooth;">
+
+        <!-- Welcome bot message -->
+        <div class="flex justify-start">
+            <div class="chat-bubble-bot bg-gray-700 rounded-lg px-4 py-3 max-w-sm">
+                <p class="text-sm">👋 Hi! I'm EduPath AI. Ask me anything about courses, career paths, or learning recommendations!</p>
+                <span class="text-xs text-gray-500 mt-1 block">just now</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Suggestion chips -->
+    <div id="suggestions" class="bg-gray-800 px-4 pt-3 flex flex-wrap gap-2">
+        <button class="suggestion-chip text-xs bg-gray-700 hover:bg-purple-700 px-3 py-1.5 rounded-full transition"
+                onclick="sendMessage(this.textContent)">What should I learn after Python?</button>
+        <button class="suggestion-chip text-xs bg-gray-700 hover:bg-purple-700 px-3 py-1.5 rounded-full transition"
+                onclick="sendMessage(this.textContent)">I want to become a Data Scientist</button>
+        <button class="suggestion-chip text-xs bg-gray-700 hover:bg-purple-700 px-3 py-1.5 rounded-full transition"
+                onclick="sendMessage(this.textContent)">Show me Beginner AI courses</button>
+        <button class="suggestion-chip text-xs bg-gray-700 hover:bg-purple-700 px-3 py-1.5 rounded-full transition"
+                onclick="sendMessage(this.textContent)">How long is course 1005?</button>
+        <button class="suggestion-chip text-xs bg-gray-700 hover:bg-purple-700 px-3 py-1.5 rounded-full transition"
+                onclick="sendMessage(this.textContent)">What am I missing for course 1010?</button>
+    </div>
+
+    <!-- Input bar -->
+    <div class="bg-gray-800 rounded-b-2xl border-t border-gray-700 p-4 flex gap-3">
+        <input id="message-input" type="text"
+               placeholder="Type a message…"
+               class="flex-1 bg-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 placeholder-gray-500"
+               onkeydown="if(event.key==='Enter') { sendMessage(this.value); this.value=''; }">
+        <button id="send-btn"
+                onclick="const i=document.getElementById('message-input'); sendMessage(i.value); i.value='';"
+                class="bg-purple-600 hover:bg-purple-700 px-5 py-3 rounded-xl font-bold transition">
+            ➤
+        </button>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let completedCourses = JSON.parse(localStorage.getItem('completed_courses') || '[]');
+
+function timeNow() {
+    return new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+}
+
+function scrollToBottom() {
+    const c = document.getElementById('chat-messages');
+    c.scrollTop = c.scrollHeight;
+}
+
+function displayMessage(text, sender) {
+    const c = document.getElementById('chat-messages');
+    const wrap = document.createElement('div');
+    wrap.className = sender === 'user' ? 'flex justify-end' : 'flex justify-start';
+
+    // Convert **bold** markdown
+    const formatted = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+
+    wrap.innerHTML = `
+        <div class="${sender === 'user' ? 'chat-bubble-user bg-purple-600' : 'chat-bubble-bot bg-gray-700'}
+                    rounded-lg px-4 py-3 max-w-sm text-sm">
+            <p>${formatted}</p>
+            <span class="text-xs opacity-60 mt-1 block">${timeNow()}</span>
+        </div>`;
+    c.appendChild(wrap);
+    scrollToBottom();
+}
+
+function displayCourseCards(courses) {
+    if (!courses || !courses.length) return;
+    const c = document.getElementById('chat-messages');
+    const row = document.createElement('div');
+    row.className = 'flex gap-3 overflow-x-auto pb-2';
+
+    courses.forEach(course => {
+        const card = document.createElement('div');
+        card.className = 'bg-gray-800 border border-gray-700 rounded-xl p-4 min-w-[220px] flex-shrink-0';
+        card.innerHTML = `
+            <h4 class="font-bold text-sm mb-2 leading-tight">${course.course_title}</h4>
+            <div class="flex gap-1 flex-wrap mb-2">
+                <span class="text-xs bg-blue-800 px-2 py-0.5 rounded">${course.category}</span>
+                <span class="text-xs bg-gray-700 px-2 py-0.5 rounded">${course.course_difficulty}</span>
+            </div>
+            <p class="text-xs text-gray-400 mb-3">⭐ ${course.course_rating} · ${course.est_hours}h</p>
+            <button onclick="window.location.href='/roadmap/${course.course_id}'"
+                    class="w-full bg-purple-600 hover:bg-purple-700 text-xs py-1.5 rounded transition">
+                View Roadmap
+            </button>`;
+        row.appendChild(card);
+    });
+
+    const wrap = document.createElement('div');
+    wrap.className = 'flex justify-start';
+    wrap.appendChild(row);
+    c.appendChild(wrap);
+    scrollToBottom();
+}
+
+function showTypingIndicator() {
+    const c = document.getElementById('chat-messages');
+    const el = document.createElement('div');
+    el.id = 'typing-indicator';
+    el.className = 'flex justify-start';
+    el.innerHTML = `
+        <div class="chat-bubble-bot bg-gray-700 rounded-lg px-4 py-3">
+            <div class="flex gap-1 items-center">
+                <div class="w-2 h-2 bg-gray-400 rounded-full typing-dot"></div>
+                <div class="w-2 h-2 bg-gray-400 rounded-full typing-dot"></div>
+                <div class="w-2 h-2 bg-gray-400 rounded-full typing-dot"></div>
+            </div>
+        </div>`;
+    c.appendChild(el);
+    scrollToBottom();
+}
+
+function hideTypingIndicator() {
+    const el = document.getElementById('typing-indicator');
+    if (el) el.remove();
+}
+
+async function sendMessage(text) {
+    text = (text || '').trim();
+    if (!text) return;
+
+    // Hide suggestion chips after first message
+    document.getElementById('suggestions').style.display = 'none';
+
+    displayMessage(text, 'user');
+    showTypingIndicator();
+
+    try {
+        const res = await fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                message: text,
+                completed_courses: completedCourses.map(c => c.course_id || c)
+            })
+        });
+        const data = await res.json();
+        hideTypingIndicator();
+        displayMessage(data.reply || 'Sorry, I could not process that.', 'bot');
+        if (data.courses && data.courses.length) displayCourseCards(data.courses);
+    } catch (e) {
+        hideTypingIndicator();
+        displayMessage('⚠️ Network error. Please try again.', 'bot');
+    }
+}
+</script>
+{% endblock %}
