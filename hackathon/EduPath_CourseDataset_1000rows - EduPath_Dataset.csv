@@ -1,0 +1,1001 @@
+course_id,course_title,category,prerequisite_ids,est_hours,course_organization,course_difficulty,course_rating
+1001,Core Programming with Projects,Programming,[],7,Khan Academy,Beginner,4.8
+1002,Practical Data Science in Practice,Data Science,[],5,CNCF,Beginner,4.3
+1003,AI for AI with Projects,AI,"[1001,1002]",19,freeCodeCamp,Intermediate,3.9
+1004,Full-Stack Web Dev Crash Course,Web Dev,[1002],23,IBM,Intermediate,3.9
+1005,Serverless Cloud Complete Guide,Cloud,"[1002,1001]",27,Google Cloud,Advanced,4
+1006,CI/CD DevOps with Projects,DevOps,[],14,Meta,Beginner,3.5
+1007,Number Theory Mathematics Certification Prep,Mathematics,[],13,CNCF,Beginner,4.6
+1008,Data Structures Computer Sci Advanced,Computer Sci,[1006],18,IIT Delhi,Intermediate,5
+1009,Incident Response Cybersecurity Professional,Cybersecurity,[1006],26,freeCodeCamp,Intermediate,4.8
+1010,Finance Business Specialization,Business,[1008],28,Infosys Springboard,Advanced,4.9
+1011,Business English Communication Specialization,Communication,[],14,MIT OpenCourse,Beginner,3.8
+1012,Design Thinking Design Certification Prep,Design,[],15,Docker Inc,Beginner,4.6
+1013,Redis Database Specialization,Database,[1011],30,freeCodeCamp,Intermediate,3.8
+1014,Kotlin Mobile Dev Certification Prep,Mobile Dev,[1002],26,Coursera,Intermediate,3.5
+1015,Cisco CCNA Networking Complete Guide,Networking,"[1006,1002]",26,Stanford,Advanced,3.7
+1016,Mastering Programming Advanced,Programming,[],13,Google Cloud,Beginner,4.3
+1017,Analytics Data Science Essentials,Data Science,[],13,Google Cloud,Beginner,4.8
+1018,Neural Networks AI Zero to Hero,AI,[1016],15,Meta,Intermediate,4.9
+1019,Node.js Web Dev Advanced,Web Dev,[1012],19,Princeton,Intermediate,3.8
+1020,AWS Cloud in Practice,Cloud,"[1017,1019]",26,Atlassian,Advanced,4.9
+1021,Infrastructure DevOps Bootcamp,DevOps,[],14,Infosys Springboard,Beginner,4
+1022,Number Theory Mathematics Fundamentals,Mathematics,[],7,Red Hat,Beginner,4.6
+1023,Compilers Computer Sci Masterclass,Computer Sci,"[1012,1011]",27,Atlassian,Intermediate,4.2
+1024,SOC Cybersecurity Complete Guide,Cybersecurity,"[1011,1006]",29,Cisco,Intermediate,3.7
+1025,Project Management Business with Projects,Business,"[1009,1003,1014]",33,Red Hat,Advanced,4
+1026,Technical Writing Communication Specialization,Communication,[],8,freeCodeCamp,Beginner,4.8
+1027,UI/UX Design Essentials,Design,[],10,deeplearning.ai,Beginner,4.9
+1028,Cassandra Database Complete Guide,Database,[1027],15,NPTEL,Intermediate,3.7
+1029,iOS Mobile Dev for Beginners,Mobile Dev,"[1017,1027]",26,freeCodeCamp,Intermediate,4.8
+1030,Network Admin Networking Certification Prep,Networking,"[1006,1018,1022]",44,Linux Foundation,Advanced,3.8
+1031,Advanced Programming for Beginners,Programming,[],15,Docker Inc,Beginner,4.4
+1032,Analytics Data Science Crash Course,Data Science,[],14,IIT Delhi,Beginner,5
+1033,Reinforcement AI Advanced,AI,[1022],20,Atlassian,Intermediate,3.9
+1034,Node.js Web Dev Complete Guide,Web Dev,[1027],27,NPTEL,Intermediate,4.1
+1035,Cloud-Native Cloud Advanced,Cloud,"[1024,1031]",35,Red Hat,Advanced,3.5
+1036,Linux DevOps Fundamentals,DevOps,[],9,Khan Academy,Beginner,4.5
+1037,Optimization Mathematics in Practice,Mathematics,[],6,Yale,Beginner,4.7
+1038,Computer Networks Computer Sci Essentials,Computer Sci,"[1036,1011]",27,Yale,Intermediate,3.8
+1039,Network Security Cybersecurity Complete Guide,Cybersecurity,[1011],30,Infosys Springboard,Intermediate,3.7
+1040,MBA Essentials Business Masterclass,Business,"[1036,1001,1008]",49,Yale,Advanced,4.7
+1041,Storytelling Communication for Beginners,Communication,[],13,Coursera,Beginner,4.1
+1042,UI/UX Design Complete Guide,Design,[],15,Meta,Beginner,4
+1043,MongoDB Database Essentials,Database,[1011],22,Harvard,Intermediate,4.6
+1044,Cross-Platform Mobile Dev Certification Prep,Mobile Dev,[1032],25,Microsoft,Intermediate,4
+1045,Network Admin Networking Certification Prep,Networking,"[1003,1029,1019]",42,Docker Inc,Advanced,3.6
+1046,Advanced Programming Certification Prep,Programming,[],6,Google Cloud,Beginner,4.5
+1047,Practical Data Science Essentials,Data Science,[],5,deeplearning.ai,Beginner,3.9
+1048,NLP AI Fundamentals,AI,[1001],30,NPTEL,Intermediate,4.4
+1049,Vue.js Web Dev Professional,Web Dev,"[1046,1032]",15,Stanford,Intermediate,4.1
+1050,Cloud-Native Cloud in Practice,Cloud,"[1046,1048,1001]",45,Stanford,Advanced,4.7
+1051,DevOps DevOps Professional,DevOps,[],15,Linux Foundation,Beginner,4.6
+1052,Probability Mathematics Masterclass,Mathematics,[],15,Linux Foundation,Beginner,3.7
+1053,Algorithms Computer Sci Zero to Hero,Computer Sci,[1032],17,Stanford,Intermediate,3.6
+1054,Cryptography Cybersecurity Complete Guide,Cybersecurity,[1002],21,deeplearning.ai,Intermediate,4.3
+1055,Project Management Business Essentials,Business,"[1017,1007]",27,Udemy,Advanced,4.1
+1056,Technical Writing Communication Bootcamp,Communication,[],9,Meta,Beginner,3.9
+1057,Prototyping Design Fundamentals,Design,[],15,IIT Delhi,Beginner,5
+1058,SQL Database Fundamentals,Database,"[1007,1016]",24,Stanford,Intermediate,4.2
+1059,Swift Mobile Dev in Practice,Mobile Dev,[1017],26,NPTEL,Intermediate,3.9
+1060,SDN Networking in Practice,Networking,"[1049,1051,1059]",28,Oracle,Advanced,3.6
+1061,Core Programming Fundamentals,Programming,[],6,Udemy,Beginner,4
+1062,Big Data Data Science Specialization,Data Science,[],9,Docker Inc,Beginner,4.3
+1063,AI for AI Crash Course,AI,[1041],23,Meta,Intermediate,3.6
+1064,React Web Dev Crash Course,Web Dev,"[1016,1032]",21,freeCodeCamp,Intermediate,3.8
+1065,AWS Cloud Specialization,Cloud,"[1001,1046]",48,Red Hat,Advanced,4.8
+1066,CI/CD DevOps for Beginners,DevOps,[],15,MIT OpenCourse,Beginner,4.7
+1067,Number Theory Mathematics Essentials,Mathematics,[],7,NPTEL,Beginner,4.4
+1068,Data Structures Computer Sci Complete Guide,Computer Sci,[1012],23,MIT OpenCourse,Intermediate,4.3
+1069,Network Security Cybersecurity Essentials,Cybersecurity,[1001],22,Coursera,Intermediate,4.4
+1070,Project Management Business with Projects,Business,"[1028,1044]",33,freeCodeCamp,Advanced,4.5
+1071,Storytelling Communication Bootcamp,Communication,[],11,Stanford,Beginner,3.9
+1072,Prototyping Design Fundamentals,Design,[],14,freeCodeCamp,Beginner,3.5
+1073,SQL Database Zero to Hero,Database,[1002],18,Udemy,Intermediate,4.6
+1074,React Native Mobile Dev Complete Guide,Mobile Dev,[1022],29,Meta,Intermediate,4.6
+1075,Network+ Networking Advanced,Networking,"[1052,1067,1048]",37,Linux Foundation,Advanced,4
+1076,Core Programming for Beginners,Programming,[],9,Docker Inc,Beginner,4.8
+1077,Exploratory Data Science Crash Course,Data Science,[],13,Stanford,Beginner,3.8
+1078,AI for AI in Practice,AI,[1016],24,Infosys Springboard,Intermediate,4.4
+1079,Next.js Web Dev with Projects,Web Dev,[1046],28,Harvard,Intermediate,4.7
+1080,Cloud Cloud in Practice,Cloud,"[1071,1012]",27,Udemy,Advanced,3.7
+1081,Infrastructure DevOps Crash Course,DevOps,[],13,Microsoft,Beginner,3.5
+1082,Linear Algebra Mathematics Complete Guide,Mathematics,[],14,IBM,Beginner,4.3
+1083,Algorithms Computer Sci Certification Prep,Computer Sci,"[1021,1067]",15,deeplearning.ai,Intermediate,3.5
+1084,Network Security Cybersecurity Specialization,Cybersecurity,[1047],23,Yale,Intermediate,3.7
+1085,Finance Business for Beginners,Business,"[1023,1048]",48,Harvard,Advanced,3.6
+1086,Academic Writing Communication Deep Dive,Communication,[],9,Docker Inc,Beginner,3.9
+1087,Interaction Design Advanced,Design,[],8,Linux Foundation,Beginner,3.6
+1088,NoSQL Database in Practice,Database,"[1041,1081]",19,Linux Foundation,Intermediate,4.4
+1089,iOS Mobile Dev Professional,Mobile Dev,[1066],18,Amazon AWS,Intermediate,4.6
+1090,Wireless Networking Networking Crash Course,Networking,"[1086,1018,1084]",33,IIT Delhi,Advanced,3.5
+1091,Core Programming Professional,Programming,[],5,Red Hat,Beginner,4.1
+1092,Statistical Data Science Advanced,Data Science,[],11,Stanford,Beginner,4
+1093,Machine Learning AI Crash Course,AI,[1042],19,IIT Delhi,Intermediate,3.7
+1094,Next.js Web Dev Advanced,Web Dev,[1037],18,Khan Academy,Intermediate,3.8
+1095,Azure Cloud with Projects,Cloud,"[1078,1002,1008]",39,freeCodeCamp,Advanced,4.8
+1096,DevOps DevOps Specialization,DevOps,[],12,Red Hat,Beginner,3.9
+1097,Discrete Math Mathematics Certification Prep,Mathematics,[],6,IBM,Beginner,3.5
+1098,OS Concepts Computer Sci in Practice,Computer Sci,[1076],24,Google Cloud,Intermediate,3.5
+1099,Penetration Cybersecurity Crash Course,Cybersecurity,"[1091,1056]",23,Princeton,Intermediate,4.6
+1100,Finance Business Certification Prep,Business,"[1014,1077]",29,Khan Academy,Advanced,4.1
+1101,Public Speaking Communication for Beginners,Communication,[],13,Red Hat,Beginner,4.3
+1102,Prototyping Design Complete Guide,Design,[],5,Linux Foundation,Beginner,3.9
+1103,Redis Database Crash Course,Database,"[1052,1092]",30,MIT OpenCourse,Intermediate,3.7
+1104,Swift Mobile Dev Fundamentals,Mobile Dev,[1096],18,Infosys Springboard,Intermediate,5
+1105,Wireless Networking Networking Complete Guide,Networking,"[1064,1028,1066]",30,Harvard,Advanced,4.6
+1106,Java Programming Fundamentals,Programming,[],5,deeplearning.ai,Beginner,4.3
+1107,Applied Data Science Certification Prep,Data Science,[],15,deeplearning.ai,Beginner,3.8
+1108,AI for AI for Beginners,AI,"[1001,1056]",20,Princeton,Intermediate,4.7
+1109,Angular Web Dev with Projects,Web Dev,[1087],28,Yale,Intermediate,4.8
+1110,AWS Cloud Deep Dive,Cloud,"[1098,1103]",26,Yale,Advanced,3.9
+1111,Infrastructure DevOps Advanced,DevOps,[],8,Google Cloud,Beginner,3.5
+1112,Calculus Mathematics with Projects,Mathematics,[],9,Microsoft,Beginner,4.1
+1113,System Design Computer Sci Zero to Hero,Computer Sci,[1081],19,Khan Academy,Intermediate,3.8
+1114,Incident Response Cybersecurity Complete Guide,Cybersecurity,"[1047,1072]",23,Infosys Springboard,Intermediate,4.7
+1115,Leadership Business in Practice,Business,"[1028,1046,1029]",48,MIT OpenCourse,Advanced,4
+1116,Storytelling Communication Specialization,Communication,[],15,freeCodeCamp,Beginner,4.6
+1117,Product Design Design Complete Guide,Design,[],14,CNCF,Beginner,4.9
+1118,SQL Database in Practice,Database,"[1076,1041]",22,Princeton,Intermediate,3.9
+1119,React Native Mobile Dev Advanced,Mobile Dev,"[1087,1012]",21,Khan Academy,Intermediate,4.3
+1120,Cisco CCNA Networking Complete Guide,Networking,"[1097,1051,1047]",25,deeplearning.ai,Advanced,4.1
+1121,Python for Programming Fundamentals,Programming,[],13,Princeton,Beginner,4.9
+1122,Data Data Science Specialization,Data Science,[],5,Udemy,Beginner,3.9
+1123,Neural Networks AI for Beginners,AI,"[1032,1071]",29,Cisco,Intermediate,4.5
+1124,React Web Dev Complete Guide,Web Dev,"[1082,1121]",25,Infosys Springboard,Intermediate,4.6
+1125,Cloud Cloud Certification Prep,Cloud,"[1097,1026,1083]",44,Amazon AWS,Advanced,4.1
+1126,DevOps DevOps Crash Course,DevOps,[],14,CNCF,Beginner,4.6
+1127,Optimization Mathematics Complete Guide,Mathematics,[],14,Linux Foundation,Beginner,4.4
+1128,Algorithms Computer Sci Advanced,Computer Sci,[1096],24,NPTEL,Intermediate,4.4
+1129,Incident Response Cybersecurity Deep Dive,Cybersecurity,[1062],29,Stanford,Intermediate,3.5
+1130,Lean Business for Beginners,Business,"[1099,1112]",28,freeCodeCamp,Advanced,4.6
+1131,Business English Communication Complete Guide,Communication,[],12,Harvard,Beginner,4.1
+1132,Prototyping Design Deep Dive,Design,[],5,deeplearning.ai,Beginner,4.8
+1133,Database Design Database in Practice,Database,"[1127,1006]",22,Oracle,Intermediate,4.1
+1134,Cross-Platform Mobile Dev Complete Guide,Mobile Dev,[1092],15,Stanford,Intermediate,3.7
+1135,Wireless Networking Networking Deep Dive,Networking,"[1071,1067,1114]",29,Coursera,Advanced,3.8
+1136,Advanced Programming Certification Prep,Programming,[],10,Khan Academy,Beginner,3.6
+1137,Data Data Science Certification Prep,Data Science,[],12,IBM,Beginner,3.7
+1138,NLP AI Specialization,AI,"[1061,1027]",26,Microsoft,Intermediate,4.6
+1139,Vue.js Web Dev Bootcamp,Web Dev,"[1001,1097]",21,Oracle,Intermediate,4.7
+1140,Hybrid Cloud Cloud Advanced,Cloud,"[1017,1119]",46,Oracle,Advanced,4.7
+1141,Site Reliability DevOps Essentials,DevOps,[],10,Cisco,Beginner,4.7
+1142,Statistics Mathematics Complete Guide,Mathematics,[],12,Meta,Beginner,4.9
+1143,Theory of Computer Sci Complete Guide,Computer Sci,"[1027,1087]",15,freeCodeCamp,Intermediate,4.3
+1144,Incident Response Cybersecurity for Beginners,Cybersecurity,"[1076,1107]",18,Amazon AWS,Intermediate,4.3
+1145,MBA Essentials Business for Beginners,Business,"[1023,1082,1033]",29,Coursera,Advanced,4.8
+1146,Business English Communication Bootcamp,Communication,[],13,deeplearning.ai,Beginner,3.9
+1147,Interaction Design Bootcamp,Design,[],11,Coursera,Beginner,4.4
+1148,Database Design Database Crash Course,Database,"[1052,1007]",26,Docker Inc,Intermediate,4.7
+1149,Kotlin Mobile Dev Fundamentals,Mobile Dev,[1096],30,Microsoft,Intermediate,4
+1150,Wireless Networking Networking Complete Guide,Networking,"[1139,1116,1012]",39,Meta,Advanced,4.8
+1151,Python for Programming Masterclass,Programming,[],6,Infosys Springboard,Beginner,3.9
+1152,Analytics Data Science Masterclass,Data Science,[],15,Atlassian,Beginner,4.9
+1153,Deep Learning AI for Beginners,AI,[1026],21,Stanford,Intermediate,4.3
+1154,Next.js Web Dev Complete Guide,Web Dev,[1131],30,IBM,Intermediate,4.8
+1155,Serverless Cloud Bootcamp,Cloud,"[1119,1019]",50,Coursera,Advanced,3.5
+1156,Kubernetes DevOps Bootcamp,DevOps,[],6,deeplearning.ai,Beginner,4.9
+1157,Probability Mathematics for Beginners,Mathematics,[],5,Udemy,Beginner,3.9
+1158,Algorithms Computer Sci Masterclass,Computer Sci,[1016],19,MIT OpenCourse,Intermediate,4.2
+1159,Security+ Cybersecurity in Practice,Cybersecurity,"[1067,1042]",27,Amazon AWS,Intermediate,4.2
+1160,Project Management Business Masterclass,Business,"[1038,1067,1122]",48,Amazon AWS,Advanced,3.6
+1161,Business English Communication with Projects,Communication,[],15,deeplearning.ai,Beginner,4.2
+1162,Design Thinking Design in Practice,Design,[],9,Harvard,Beginner,4.3
+1163,PostgreSQL Database Bootcamp,Database,[1132],15,Cisco,Intermediate,4.7
+1164,Swift Mobile Dev for Beginners,Mobile Dev,[1156],23,IBM,Intermediate,4.9
+1165,OSI Model Networking with Projects,Networking,"[1056,1108]",25,MIT OpenCourse,Advanced,3.6
+1166,Java Programming for Beginners,Programming,[],7,Microsoft,Beginner,3.9
+1167,Applied Data Science for Beginners,Data Science,[],15,freeCodeCamp,Beginner,3.9
+1168,Deep Learning AI Fundamentals,AI,[1051],30,Red Hat,Intermediate,3.9
+1169,Node.js Web Dev Essentials,Web Dev,[1011],20,Google Cloud,Intermediate,4.7
+1170,Cloud Cloud Zero to Hero,Cloud,"[1101,1056]",39,CNCF,Advanced,3.8
+1171,Linux DevOps Masterclass,DevOps,[],10,Khan Academy,Beginner,5
+1172,Probability Mathematics for Beginners,Mathematics,[],5,MIT OpenCourse,Beginner,4.9
+1173,Data Structures Computer Sci Crash Course,Computer Sci,[1056],28,Amazon AWS,Intermediate,3.9
+1174,Penetration Cybersecurity Bootcamp,Cybersecurity,[1171],20,Meta,Intermediate,4.6
+1175,Finance Business Certification Prep,Business,"[1024,1018,1033]",36,NPTEL,Advanced,3.8
+1176,Technical Writing Communication Professional,Communication,[],9,CNCF,Beginner,3.7
+1177,UI/UX Design Professional,Design,[],9,Yale,Beginner,4.4
+1178,Cassandra Database in Practice,Database,"[1101,1047]",16,Khan Academy,Intermediate,3.8
+1179,Cross-Platform Mobile Dev with Projects,Mobile Dev,[1022],22,Coursera,Intermediate,4.8
+1180,TCP/IP Networking Complete Guide,Networking,"[1136,1177,1022]",42,Harvard,Advanced,3.7
+1181,C++ and Programming Essentials,Programming,[],5,Linux Foundation,Beginner,4.7
+1182,Big Data Data Science Crash Course,Data Science,[],15,IBM,Beginner,4.1
+1183,Deep Learning AI Professional,AI,"[1106,1132]",15,deeplearning.ai,Intermediate,4.6
+1184,Full-Stack Web Dev Bootcamp,Web Dev,"[1031,1171]",29,Yale,Intermediate,4.2
+1185,Cloud-Native Cloud Deep Dive,Cloud,"[1103,1182]",28,Princeton,Advanced,3.9
+1186,Kubernetes DevOps Masterclass,DevOps,[],8,Amazon AWS,Beginner,4.4
+1187,Optimization Mathematics in Practice,Mathematics,[],14,Khan Academy,Beginner,3.5
+1188,System Design Computer Sci Zero to Hero,Computer Sci,"[1006,1106]",30,NPTEL,Intermediate,4
+1189,Cryptography Cybersecurity Crash Course,Cybersecurity,"[1096,1117]",19,Coursera,Intermediate,4.7
+1190,Project Management Business Essentials,Business,"[1123,1058,1049]",33,IBM,Advanced,3.5
+1191,English for Communication Certification Prep,Communication,[],10,IIT Delhi,Beginner,3.9
+1192,UI/UX Design with Projects,Design,[],11,Yale,Beginner,4.6
+1193,Cassandra Database for Beginners,Database,[1121],29,Docker Inc,Intermediate,4
+1194,React Native Mobile Dev Zero to Hero,Mobile Dev,[1092],28,IIT Delhi,Intermediate,4.2
+1195,Network+ Networking in Practice,Networking,"[1036,1186,1156]",50,IBM,Advanced,4.4
+1196,Core Programming Bootcamp,Programming,[],8,Princeton,Beginner,4.4
+1197,Analytics Data Science Bootcamp,Data Science,[],15,NPTEL,Beginner,4.6
+1198,Neural Networks AI in Practice,AI,"[1056,1162]",20,Microsoft,Intermediate,4.5
+1199,Full-Stack Web Dev Complete Guide,Web Dev,[1042],30,Red Hat,Intermediate,4.6
+1200,Azure Cloud Zero to Hero,Cloud,"[1067,1006,1139]",45,Princeton,Advanced,4.4
+1201,Docker DevOps Essentials,DevOps,[],6,Harvard,Beginner,4
+1202,Number Theory Mathematics Professional,Mathematics,[],11,IIT Delhi,Beginner,3.5
+1203,Theory of Computer Sci Advanced,Computer Sci,[1166],21,Udemy,Intermediate,4.6
+1204,Network Security Cybersecurity Crash Course,Cybersecurity,"[1146,1062]",25,Cisco,Intermediate,4
+1205,MBA Essentials Business Advanced,Business,"[1022,1064,1118]",36,Harvard,Advanced,4.5
+1206,Academic Writing Communication Professional,Communication,[],6,Microsoft,Beginner,4.5
+1207,Design Thinking Design Advanced,Design,[],15,Amazon AWS,Beginner,4.9
+1208,Cassandra Database Bootcamp,Database,"[1102,1171]",18,Google Cloud,Intermediate,4
+1209,React Native Mobile Dev with Projects,Mobile Dev,"[1152,1116]",21,Amazon AWS,Intermediate,4.6
+1210,Wireless Networking Networking Masterclass,Networking,"[1169,1026]",40,Amazon AWS,Advanced,4.5
+1211,Python for Programming with Projects,Programming,[],7,Cisco,Beginner,4.4
+1212,Analytics Data Science Crash Course,Data Science,[],8,Amazon AWS,Beginner,4.5
+1213,Neural Networks AI Certification Prep,AI,"[1046,1051]",22,IIT Delhi,Intermediate,4.6
+1214,React Web Dev Masterclass,Web Dev,"[1121,1131]",24,Docker Inc,Intermediate,4.2
+1215,GCP Cloud for Beginners,Cloud,"[1054,1047,1197]",49,Stanford,Advanced,3.5
+1216,Docker DevOps Specialization,DevOps,[],15,freeCodeCamp,Beginner,3.7
+1217,Discrete Math Mathematics Zero to Hero,Mathematics,[],10,Princeton,Beginner,3.6
+1218,Data Structures Computer Sci Zero to Hero,Computer Sci,"[1166,1137]",16,Khan Academy,Intermediate,4.4
+1219,Network Security Cybersecurity for Beginners,Cybersecurity,"[1002,1046]",20,Linux Foundation,Intermediate,5
+1220,Project Management Business for Beginners,Business,"[1007,1171]",49,IBM,Advanced,3.8
+1221,Technical Writing Communication Essentials,Communication,[],15,Google Cloud,Beginner,4.2
+1222,Product Design Design for Beginners,Design,[],15,IIT Delhi,Beginner,4.2
+1223,Database Design Database Certification Prep,Database,[1146],15,Docker Inc,Intermediate,3.6
+1224,Cross-Platform Mobile Dev Certification Prep,Mobile Dev,[1217],16,Coursera,Intermediate,4.1
+1225,Cisco CCNA Networking Bootcamp,Networking,"[1033,1021,1193]",35,Google Cloud,Advanced,3.7
+1226,Java Programming Crash Course,Programming,[],8,Infosys Springboard,Beginner,3.6
+1227,Practical Data Science Professional,Data Science,[],11,NPTEL,Beginner,4.8
+1228,Generative AI AI Specialization,AI,[1171],30,Khan Academy,Intermediate,3.9
+1229,Vue.js Web Dev Fundamentals,Web Dev,"[1097,1147]",19,Microsoft,Intermediate,4.9
+1230,Azure Cloud in Practice,Cloud,"[1178,1054]",49,IIT Delhi,Advanced,4.4
+1231,Linux DevOps in Practice,DevOps,[],9,Meta,Beginner,4.1
+1232,Statistics Mathematics Advanced,Mathematics,[],9,Docker Inc,Beginner,4.3
+1233,OS Concepts Computer Sci Professional,Computer Sci,"[1022,1166]",25,Oracle,Intermediate,4.6
+1234,Network Security Cybersecurity Certification Prep,Cybersecurity,"[1176,1012]",29,Stanford,Intermediate,3.6
+1235,Business Analytics Business Masterclass,Business,"[1227,1076,1178]",50,Linux Foundation,Advanced,4.5
+1236,Public Speaking Communication Deep Dive,Communication,[],5,Princeton,Beginner,3.5
+1237,Graphic Design Design Fundamentals,Design,[],6,CNCF,Beginner,4.9
+1238,PostgreSQL Database in Practice,Database,"[1066,1202]",17,Linux Foundation,Intermediate,3.6
+1239,React Native Mobile Dev Specialization,Mobile Dev,[1061],16,Meta,Intermediate,4.2
+1240,OSI Model Networking in Practice,Networking,"[1131,1176]",37,MIT OpenCourse,Advanced,3.7
+1241,Mastering Programming Certification Prep,Programming,[],6,Meta,Beginner,4.1
+1242,Exploratory Data Science Zero to Hero,Data Science,[],5,Cisco,Beginner,4.4
+1243,Generative AI AI Masterclass,AI,"[1031,1016]",23,deeplearning.ai,Intermediate,4.6
+1244,Full-Stack Web Dev Advanced,Web Dev,"[1062,1196]",30,Atlassian,Intermediate,4.1
+1245,Cloud-Native Cloud Zero to Hero,Cloud,"[1079,1106]",41,IBM,Advanced,4
+1246,CI/CD DevOps Zero to Hero,DevOps,[],14,Microsoft,Beginner,3.5
+1247,Number Theory Mathematics Specialization,Mathematics,[],14,Docker Inc,Beginner,3.8
+1248,OS Concepts Computer Sci Professional,Computer Sci,[1087],28,IBM,Intermediate,3.6
+1249,Incident Response Cybersecurity Complete Guide,Cybersecurity,[1246],17,Yale,Intermediate,4.9
+1250,Lean Business Zero to Hero,Business,"[1003,1191]",43,Microsoft,Advanced,3.9
+1251,Storytelling Communication Essentials,Communication,[],13,Meta,Beginner,4.8
+1252,UI/UX Design Professional,Design,[],5,Amazon AWS,Beginner,4.9
+1253,PostgreSQL Database Zero to Hero,Database,"[1181,1147]",27,IBM,Intermediate,4.5
+1254,Kotlin Mobile Dev for Beginners,Mobile Dev,[1051],25,Infosys Springboard,Intermediate,3.5
+1255,Cisco CCNA Networking Certification Prep,Networking,"[1232,1249]",30,CNCF,Advanced,3.8
+1256,Mastering Programming Specialization,Programming,[],7,NPTEL,Beginner,4.8
+1257,Data Data Science Crash Course,Data Science,[],8,Red Hat,Beginner,4.5
+1258,AI for AI Crash Course,AI,[1186],24,Infosys Springboard,Intermediate,4.9
+1259,React Web Dev Essentials,Web Dev,"[1081,1172]",27,Infosys Springboard,Intermediate,4.6
+1260,GCP Cloud Certification Prep,Cloud,"[1029,1113]",25,Harvard,Advanced,4
+1261,Infrastructure DevOps Deep Dive,DevOps,[],13,Cisco,Beginner,4
+1262,Calculus Mathematics Certification Prep,Mathematics,[],8,Red Hat,Beginner,4.3
+1263,Algorithms Computer Sci Bootcamp,Computer Sci,"[1011,1087]",27,Google Cloud,Intermediate,4.8
+1264,Ethical Hacking Cybersecurity Crash Course,Cybersecurity,[1061],28,Udemy,Intermediate,4.2
+1265,MBA Essentials Business with Projects,Business,"[1197,1082]",32,Stanford,Advanced,4.8
+1266,Academic Writing Communication Certification Prep,Communication,[],6,Cisco,Beginner,4.7
+1267,Design Thinking Design Advanced,Design,[],15,deeplearning.ai,Beginner,4.4
+1268,PostgreSQL Database with Projects,Database,"[1062,1037]",27,Atlassian,Intermediate,3.8
+1269,iOS Mobile Dev Advanced,Mobile Dev,"[1186,1041]",15,NPTEL,Intermediate,4.6
+1270,Cisco CCNA Networking with Projects,Networking,"[1016,1122]",40,NPTEL,Advanced,4.4
+1271,Java Programming Certification Prep,Programming,[],7,Yale,Beginner,4.8
+1272,Statistical Data Science Zero to Hero,Data Science,[],5,Google Cloud,Beginner,4.7
+1273,Neural Networks AI Complete Guide,AI,[1167],21,MIT OpenCourse,Intermediate,3.8
+1274,Next.js Web Dev Professional,Web Dev,"[1026,1077]",26,IBM,Intermediate,4.6
+1275,Cloud-Native Cloud Complete Guide,Cloud,"[1084,1011]",48,Red Hat,Advanced,3.9
+1276,Docker DevOps Bootcamp,DevOps,[],10,Udemy,Beginner,4
+1277,Calculus Mathematics for Beginners,Mathematics,[],7,Princeton,Beginner,4.9
+1278,Compilers Computer Sci Complete Guide,Computer Sci,[1057],18,Docker Inc,Intermediate,3.8
+1279,Security+ Cybersecurity Masterclass,Cybersecurity,[1272],15,Udemy,Intermediate,4.1
+1280,MBA Essentials Business Complete Guide,Business,"[1036,1057]",45,Stanford,Advanced,4.3
+1281,Storytelling Communication Fundamentals,Communication,[],11,Meta,Beginner,4
+1282,Interaction Design Fundamentals,Design,[],15,Red Hat,Beginner,4.5
+1283,PostgreSQL Database Fundamentals,Database,[1277],17,Docker Inc,Intermediate,3.6
+1284,iOS Mobile Dev in Practice,Mobile Dev,[1182],29,Princeton,Intermediate,4.2
+1285,OSI Model Networking Certification Prep,Networking,"[1019,1268,1226]",34,deeplearning.ai,Advanced,4.8
+1286,C++ and Programming in Practice,Programming,[],10,MIT OpenCourse,Beginner,4.6
+1287,Practical Data Science for Beginners,Data Science,[],5,Google Cloud,Beginner,4.5
+1288,NLP AI Deep Dive,AI,[1107],29,Yale,Intermediate,4.7
+1289,HTML/CSS Web Dev Specialization,Web Dev,"[1271,1081]",29,Infosys Springboard,Intermediate,3.9
+1290,AWS Cloud Crash Course,Cloud,"[1247,1001,1282]",34,Cisco,Advanced,4.6
+1291,Kubernetes DevOps Professional,DevOps,[],11,Microsoft,Beginner,4.9
+1292,Discrete Math Mathematics Advanced,Mathematics,[],9,freeCodeCamp,Beginner,4.2
+1293,System Design Computer Sci Certification Prep,Computer Sci,"[1076,1187]",18,Google Cloud,Intermediate,4.8
+1294,Security+ Cybersecurity Specialization,Cybersecurity,[1271],15,Infosys Springboard,Intermediate,4.5
+1295,Finance Business Deep Dive,Business,"[1108,1139]",26,NPTEL,Advanced,3.7
+1296,Presentation Communication Fundamentals,Communication,[],11,Docker Inc,Beginner,4.8
+1297,Prototyping Design Professional,Design,[],9,deeplearning.ai,Beginner,4.6
+1298,PostgreSQL Database Masterclass,Database,[1046],15,Oracle,Intermediate,4
+1299,React Native Mobile Dev for Beginners,Mobile Dev,"[1071,1012]",20,IIT Delhi,Intermediate,4.7
+1300,Network Admin Networking Fundamentals,Networking,"[1279,1016]",42,Linux Foundation,Advanced,4.5
+1301,Python for Programming with Projects,Programming,[],6,Linux Foundation,Beginner,3.6
+1302,Exploratory Data Science for Beginners,Data Science,[],5,Harvard,Beginner,4.2
+1303,Neural Networks AI Complete Guide,AI,[1102],23,IBM,Intermediate,4.2
+1304,Next.js Web Dev Deep Dive,Web Dev,"[1276,1096]",17,Harvard,Intermediate,3.8
+1305,Cloud Cloud for Beginners,Cloud,"[1229,1042,1246]",50,Red Hat,Advanced,5
+1306,Infrastructure DevOps Zero to Hero,DevOps,[],15,Microsoft,Beginner,4.9
+1307,Optimization Mathematics Specialization,Mathematics,[],12,deeplearning.ai,Beginner,4.3
+1308,Theory of Computer Sci Bootcamp,Computer Sci,[1261],22,Amazon AWS,Intermediate,3.9
+1309,Incident Response Cybersecurity Complete Guide,Cybersecurity,"[1252,1117]",30,Amazon AWS,Intermediate,4.6
+1310,Agile Business Zero to Hero,Business,"[1308,1136,1011]",42,Google Cloud,Advanced,3.7
+1311,Presentation Communication Essentials,Communication,[],14,CNCF,Beginner,4.5
+1312,Design Thinking Design with Projects,Design,[],10,Princeton,Beginner,4.4
+1313,SQL Database Essentials,Database,[1307],19,Princeton,Intermediate,3.6
+1314,Flutter Mobile Dev Essentials,Mobile Dev,[1051],23,Yale,Intermediate,4.9
+1315,Network Admin Networking Fundamentals,Networking,"[1027,1193]",45,MIT OpenCourse,Advanced,3.9
+1316,Core Programming Crash Course,Programming,[],8,Meta,Beginner,4.8
+1317,Big Data Data Science Fundamentals,Data Science,[],9,Google Cloud,Beginner,4.7
+1318,Neural Networks AI with Projects,AI,[1142],22,IBM,Intermediate,4.7
+1319,Next.js Web Dev Certification Prep,Web Dev,[1002],24,Yale,Intermediate,4.4
+1320,GCP Cloud Certification Prep,Cloud,"[1243,1104,1023]",33,freeCodeCamp,Advanced,3.9
+1321,DevOps DevOps Masterclass,DevOps,[],14,Harvard,Beginner,4.1
+1322,Optimization Mathematics Complete Guide,Mathematics,[],10,Yale,Beginner,4.5
+1323,OS Concepts Computer Sci Specialization,Computer Sci,"[1181,1246]",19,Amazon AWS,Intermediate,4
+1324,Network Security Cybersecurity Professional,Cybersecurity,"[1252,1202]",16,Microsoft,Intermediate,4.5
+1325,Agile Business Masterclass,Business,"[1063,1041,1272]",27,Atlassian,Advanced,3.8
+1326,Business English Communication with Projects,Communication,[],15,Microsoft,Beginner,3.9
+1327,Design Thinking Design Crash Course,Design,[],15,deeplearning.ai,Beginner,3.6
+1328,Cassandra Database Professional,Database,"[1307,1022]",19,Docker Inc,Intermediate,4.2
+1329,Cross-Platform Mobile Dev for Beginners,Mobile Dev,[1327],21,Udemy,Intermediate,4.5
+1330,Wireless Networking Networking in Practice,Networking,"[1276,1087]",32,Google Cloud,Advanced,3.8
+1331,Advanced Programming Deep Dive,Programming,[],12,CNCF,Beginner,4.7
+1332,Applied Data Science Masterclass,Data Science,[],5,Udemy,Beginner,4.8
+1333,Reinforcement AI Complete Guide,AI,[1077],19,MIT OpenCourse,Intermediate,4
+1334,Angular Web Dev Fundamentals,Web Dev,[1071],26,Linux Foundation,Intermediate,4
+1335,GCP Cloud Professional,Cloud,"[1073,1212]",48,Harvard,Advanced,4.7
+1336,Kubernetes DevOps Fundamentals,DevOps,[],13,MIT OpenCourse,Beginner,4.4
+1337,Number Theory Mathematics Zero to Hero,Mathematics,[],12,NPTEL,Beginner,3.9
+1338,Algorithms Computer Sci Fundamentals,Computer Sci,"[1297,1227]",15,NPTEL,Intermediate,3.6
+1339,Ethical Hacking Cybersecurity for Beginners,Cybersecurity,[1307],16,deeplearning.ai,Intermediate,3.9
+1340,Leadership Business Fundamentals,Business,"[1317,1019,1179]",27,Microsoft,Advanced,4.2
+1341,Academic Writing Communication for Beginners,Communication,[],7,Google Cloud,Beginner,4.2
+1342,Figma Design Advanced,Design,[],14,Microsoft,Beginner,4.1
+1343,NoSQL Database Advanced,Database,"[1036,1042]",30,Amazon AWS,Intermediate,4.8
+1344,Flutter Mobile Dev Fundamentals,Mobile Dev,"[1326,1281]",28,Microsoft,Intermediate,3.8
+1345,Wireless Networking Networking Bootcamp,Networking,"[1321,1304]",43,MIT OpenCourse,Advanced,3.8
+1346,C++ and Programming Deep Dive,Programming,[],7,Princeton,Beginner,3.9
+1347,Practical Data Science Crash Course,Data Science,[],7,NPTEL,Beginner,4.1
+1348,NLP AI Fundamentals,AI,"[1287,1087]",19,Red Hat,Intermediate,3.9
+1349,Node.js Web Dev Essentials,Web Dev,"[1232,1326]",30,Docker Inc,Intermediate,4.3
+1350,Hybrid Cloud Cloud with Projects,Cloud,"[1233,1099,1323]",38,Stanford,Advanced,4.6
+1351,DevOps DevOps Fundamentals,DevOps,[],14,Yale,Beginner,3.7
+1352,Discrete Math Mathematics Masterclass,Mathematics,[],13,Cisco,Beginner,4.5
+1353,Data Structures Computer Sci Bootcamp,Computer Sci,"[1197,1017]",17,Yale,Intermediate,4.5
+1354,Ethical Hacking Cybersecurity Crash Course,Cybersecurity,"[1296,1187]",25,Harvard,Intermediate,5
+1355,MBA Essentials Business Advanced,Business,"[1088,1144,1318]",39,Docker Inc,Advanced,3.8
+1356,Technical Writing Communication in Practice,Communication,[],8,IBM,Beginner,4.9
+1357,Graphic Design Design Advanced,Design,[],11,Harvard,Beginner,3.9
+1358,Database Design Database Crash Course,Database,[1231],21,MIT OpenCourse,Intermediate,4.1
+1359,Flutter Mobile Dev Advanced,Mobile Dev,"[1256,1111]",15,IIT Delhi,Intermediate,4.4
+1360,Cisco CCNA Networking Professional,Networking,"[1059,1306]",33,Cisco,Advanced,3.5
+1361,Core Programming Fundamentals,Programming,[],7,Meta,Beginner,4.7
+1362,Exploratory Data Science Essentials,Data Science,[],9,CNCF,Beginner,4.6
+1363,AI for AI Zero to Hero,AI,"[1067,1087]",24,CNCF,Intermediate,4.2
+1364,React Web Dev Zero to Hero,Web Dev,"[1287,1232]",30,NPTEL,Intermediate,3.6
+1365,Hybrid Cloud Cloud Fundamentals,Cloud,"[1156,1022,1234]",37,Khan Academy,Advanced,4.6
+1366,Docker DevOps Complete Guide,DevOps,[],9,Khan Academy,Beginner,4.5
+1367,Discrete Math Mathematics Professional,Mathematics,[],8,Oracle,Beginner,4.6
+1368,System Design Computer Sci Complete Guide,Computer Sci,[1146],20,freeCodeCamp,Intermediate,4.8
+1369,Cryptography Cybersecurity for Beginners,Cybersecurity,"[1357,1081]",20,Khan Academy,Intermediate,5
+1370,Lean Business Professional,Business,"[1152,1103]",29,Cisco,Advanced,4.8
+1371,Storytelling Communication for Beginners,Communication,[],13,freeCodeCamp,Beginner,4.6
+1372,UI/UX Design Specialization,Design,[],5,Meta,Beginner,4.5
+1373,NoSQL Database Complete Guide,Database,[1316],28,Cisco,Intermediate,3.8
+1374,Flutter Mobile Dev Advanced,Mobile Dev,"[1276,1101]",26,MIT OpenCourse,Intermediate,4
+1375,SDN Networking Bootcamp,Networking,"[1156,1146]",41,freeCodeCamp,Advanced,4.8
+1376,Advanced Programming for Beginners,Programming,[],15,Udemy,Beginner,4.9
+1377,Big Data Data Science in Practice,Data Science,[],12,IIT Delhi,Beginner,3.5
+1378,Deep Learning AI Specialization,AI,[1222],20,Harvard,Intermediate,4.9
+1379,Full-Stack Web Dev Masterclass,Web Dev,[1006],26,Infosys Springboard,Intermediate,3.7
+1380,AWS Cloud Zero to Hero,Cloud,"[1017,1012]",29,Atlassian,Advanced,4.4
+1381,Infrastructure DevOps Advanced,DevOps,[],13,Google Cloud,Beginner,4.8
+1382,Linear Algebra Mathematics Crash Course,Mathematics,[],14,Khan Academy,Beginner,3.7
+1383,System Design Computer Sci Zero to Hero,Computer Sci,"[1232,1022]",28,Linux Foundation,Intermediate,4.7
+1384,Ethical Hacking Cybersecurity Deep Dive,Cybersecurity,"[1257,1112]",18,Atlassian,Intermediate,3.8
+1385,Leadership Business for Beginners,Business,"[1363,1046]",33,NPTEL,Advanced,3.6
+1386,English for Communication Complete Guide,Communication,[],14,MIT OpenCourse,Beginner,4.6
+1387,Design Thinking Design Zero to Hero,Design,[],6,Docker Inc,Beginner,4
+1388,MongoDB Database for Beginners,Database,[1037],17,Linux Foundation,Intermediate,3.6
+1389,iOS Mobile Dev Advanced,Mobile Dev,[1086],19,Meta,Intermediate,3.7
+1390,SDN Networking with Projects,Networking,"[1099,1304,1044]",25,IBM,Advanced,4.1
+1391,C++ and Programming Professional,Programming,[],12,Infosys Springboard,Beginner,4.8
+1392,Analytics Data Science with Projects,Data Science,[],12,IBM,Beginner,3.7
+1393,AI for AI Masterclass,AI,"[1187,1321]",19,Khan Academy,Intermediate,4.2
+1394,Next.js Web Dev Crash Course,Web Dev,"[1246,1346]",15,Stanford,Intermediate,4.7
+1395,AWS Cloud Zero to Hero,Cloud,"[1301,1316]",28,Meta,Advanced,4.8
+1396,Linux DevOps Specialization,DevOps,[],5,deeplearning.ai,Beginner,3.9
+1397,Calculus Mathematics with Projects,Mathematics,[],14,Harvard,Beginner,5
+1398,Algorithms Computer Sci Essentials,Computer Sci,"[1161,1267]",29,IIT Delhi,Intermediate,3.8
+1399,Penetration Cybersecurity Bootcamp,Cybersecurity,[1042],30,Amazon AWS,Intermediate,4.6
+1400,Leadership Business Deep Dive,Business,"[1201,1282,1392]",44,Microsoft,Advanced,4.7
+1401,Academic Writing Communication Specialization,Communication,[],8,Khan Academy,Beginner,4
+1402,Interaction Design with Projects,Design,[],7,MIT OpenCourse,Beginner,4.1
+1403,Database Design Database Crash Course,Database,[1316],17,Harvard,Intermediate,3.8
+1404,iOS Mobile Dev Crash Course,Mobile Dev,[1387],21,Yale,Intermediate,4.6
+1405,Cisco CCNA Networking Professional,Networking,"[1268,1041]",28,Amazon AWS,Advanced,3.5
+1406,Java Programming Bootcamp,Programming,[],13,NPTEL,Beginner,4.5
+1407,Analytics Data Science Essentials,Data Science,[],12,Linux Foundation,Beginner,4.9
+1408,Generative AI AI Fundamentals,AI,[1231],18,Red Hat,Intermediate,3.7
+1409,React Web Dev Bootcamp,Web Dev,[1306],23,Microsoft,Intermediate,4.9
+1410,AWS Cloud Essentials,Cloud,"[1191,1201,1377]",37,Coursera,Advanced,3.9
+1411,Linux DevOps Crash Course,DevOps,[],9,MIT OpenCourse,Beginner,4.2
+1412,Discrete Math Mathematics Certification Prep,Mathematics,[],7,NPTEL,Beginner,3.6
+1413,Theory of Computer Sci with Projects,Computer Sci,"[1152,1101]",28,Khan Academy,Intermediate,4.9
+1414,Security+ Cybersecurity Advanced,Cybersecurity,"[1291,1071]",17,Coursera,Intermediate,4.3
+1415,Lean Business Certification Prep,Business,"[1217,1228,1034]",37,Amazon AWS,Advanced,4.9
+1416,Presentation Communication in Practice,Communication,[],14,Stanford,Beginner,4
+1417,UI/UX Design Bootcamp,Design,[],5,Red Hat,Beginner,3.9
+1418,Database Design Database Specialization,Database,"[1412,1096]",18,Cisco,Intermediate,3.6
+1419,Android Mobile Dev Crash Course,Mobile Dev,[1246],15,Udemy,Intermediate,4
+1420,Wireless Networking Networking in Practice,Networking,"[1068,1038,1343]",38,Udemy,Advanced,4.7
+1421,C++ and Programming Advanced,Programming,[],10,Udemy,Beginner,3.7
+1422,Big Data Data Science Bootcamp,Data Science,[],12,Cisco,Beginner,4.7
+1423,AI for AI Deep Dive,AI,"[1352,1191]",29,Linux Foundation,Intermediate,3.7
+1424,Node.js Web Dev Certification Prep,Web Dev,[1187],21,Yale,Intermediate,4.1
+1425,GCP Cloud for Beginners,Cloud,"[1071,1131,1324]",34,NPTEL,Advanced,4.3
+1426,Linux DevOps Bootcamp,DevOps,[],12,Oracle,Beginner,4.5
+1427,Discrete Math Mathematics Essentials,Mathematics,[],15,Khan Academy,Beginner,5
+1428,Computer Networks Computer Sci Certification Prep,Computer Sci,"[1162,1396]",30,IBM,Intermediate,4.9
+1429,Security+ Cybersecurity for Beginners,Cybersecurity,"[1122,1402]",19,Oracle,Intermediate,4.3
+1430,Leadership Business Crash Course,Business,"[1063,1131,1023]",42,Atlassian,Advanced,4.5
+1431,Presentation Communication Crash Course,Communication,[],8,Microsoft,Beginner,4.5
+1432,UI/UX Design Masterclass,Design,[],8,CNCF,Beginner,4.8
+1433,Cassandra Database Certification Prep,Database,[1106],15,IIT Delhi,Intermediate,3.5
+1434,Flutter Mobile Dev Deep Dive,Mobile Dev,"[1226,1271]",29,deeplearning.ai,Intermediate,4.5
+1435,Wireless Networking Networking for Beginners,Networking,"[1299,1199,1351]",29,Harvard,Advanced,4.4
+1436,Mastering Programming Specialization,Programming,[],10,CNCF,Beginner,4.3
+1437,Practical Data Science Zero to Hero,Data Science,[],10,Udemy,Beginner,3.8
+1438,Generative AI AI for Beginners,AI,[1181],21,Atlassian,Intermediate,4.1
+1439,Vue.js Web Dev for Beginners,Web Dev,"[1252,1061]",21,Udemy,Intermediate,3.7
+1440,Azure Cloud Complete Guide,Cloud,"[1198,1219]",37,Meta,Advanced,3.6
+1441,Docker DevOps Specialization,DevOps,[],6,deeplearning.ai,Beginner,4.7
+1442,Probability Mathematics with Projects,Mathematics,[],11,Stanford,Beginner,3.9
+1443,Theory of Computer Sci in Practice,Computer Sci,[1351],27,Coursera,Intermediate,4.5
+1444,SOC Cybersecurity Crash Course,Cybersecurity,[1197],17,Red Hat,Intermediate,4
+1445,Lean Business Specialization,Business,"[1089,1307,1072]",35,Linux Foundation,Advanced,4.6
+1446,Business English Communication Advanced,Communication,[],6,Google Cloud,Beginner,4.5
+1447,Graphic Design Design Fundamentals,Design,[],14,deeplearning.ai,Beginner,4
+1448,Cassandra Database for Beginners,Database,"[1027,1291]",15,Yale,Intermediate,4.9
+1449,Kotlin Mobile Dev Masterclass,Mobile Dev,[1362],25,deeplearning.ai,Intermediate,4.5
+1450,Cisco CCNA Networking Zero to Hero,Networking,"[1366,1448]",33,Amazon AWS,Advanced,4.2
+1451,Mastering Programming Deep Dive,Programming,[],6,Docker Inc,Beginner,4.6
+1452,Exploratory Data Science for Beginners,Data Science,[],8,Khan Academy,Beginner,4
+1453,Generative AI AI with Projects,AI,"[1232,1242]",20,NPTEL,Intermediate,3.6
+1454,HTML/CSS Web Dev Zero to Hero,Web Dev,[1382],17,IBM,Intermediate,4.9
+1455,AWS Cloud Fundamentals,Cloud,"[1341,1302,1127]",29,CNCF,Advanced,4.6
+1456,Kubernetes DevOps in Practice,DevOps,[],7,deeplearning.ai,Beginner,4.7
+1457,Discrete Math Mathematics Essentials,Mathematics,[],14,Stanford,Beginner,4.6
+1458,Data Structures Computer Sci Crash Course,Computer Sci,[1171],17,Meta,Intermediate,3.6
+1459,Incident Response Cybersecurity for Beginners,Cybersecurity,[1136],28,Microsoft,Intermediate,3.7
+1460,Project Management Business Advanced,Business,"[1312,1256,1046]",37,MIT OpenCourse,Advanced,3.8
+1461,Storytelling Communication Crash Course,Communication,[],6,CNCF,Beginner,3.6
+1462,UI/UX Design Bootcamp,Design,[],15,Princeton,Beginner,4.8
+1463,Redis Database in Practice,Database,[1207],27,Yale,Intermediate,4
+1464,iOS Mobile Dev Masterclass,Mobile Dev,"[1451,1182]",29,Cisco,Intermediate,4.6
+1465,Wireless Networking Networking Zero to Hero,Networking,"[1053,1042,1088]",43,Cisco,Advanced,4.6
+1466,Intro to Programming Advanced,Programming,[],12,Oracle,Beginner,4.6
+1467,Practical Data Science Professional,Data Science,[],14,Khan Academy,Beginner,4.6
+1468,NLP AI Complete Guide,AI,[1086],21,MIT OpenCourse,Intermediate,4.7
+1469,Next.js Web Dev with Projects,Web Dev,"[1382,1402]",18,Harvard,Intermediate,4.9
+1470,Hybrid Cloud Cloud for Beginners,Cloud,"[1099,1142]",27,Linux Foundation,Advanced,4.7
+1471,Site Reliability DevOps Masterclass,DevOps,[],9,deeplearning.ai,Beginner,3.6
+1472,Optimization Mathematics Certification Prep,Mathematics,[],9,IBM,Beginner,4.2
+1473,Data Structures Computer Sci Zero to Hero,Computer Sci,[1352],17,Yale,Intermediate,4.2
+1474,Security+ Cybersecurity Professional,Cybersecurity,"[1272,1261]",27,Khan Academy,Intermediate,4.6
+1475,Finance Business Bootcamp,Business,"[1032,1233,1377]",38,freeCodeCamp,Advanced,4.9
+1476,Academic Writing Communication Crash Course,Communication,[],11,IBM,Beginner,4.8
+1477,Interaction Design Specialization,Design,[],13,Red Hat,Beginner,4.5
+1478,Redis Database Masterclass,Database,"[1197,1136]",17,Meta,Intermediate,4.7
+1479,Flutter Mobile Dev with Projects,Mobile Dev,"[1047,1061]",15,Red Hat,Intermediate,4.2
+1480,SDN Networking Essentials,Networking,"[1002,1406,1009]",41,Cisco,Advanced,4.9
+1481,Core Programming Complete Guide,Programming,[],10,Princeton,Beginner,4.7
+1482,Exploratory Data Science Masterclass,Data Science,[],12,Atlassian,Beginner,3.5
+1483,NLP AI Fundamentals,AI,[1482],18,Harvard,Intermediate,3.7
+1484,Next.js Web Dev Complete Guide,Web Dev,[1011],17,Infosys Springboard,Intermediate,4.8
+1485,Cloud Cloud Fundamentals,Cloud,"[1131,1017]",37,Docker Inc,Advanced,4.9
+1486,Linux DevOps Certification Prep,DevOps,[],15,Linux Foundation,Beginner,4.9
+1487,Linear Algebra Mathematics Complete Guide,Mathematics,[],12,Red Hat,Beginner,3.7
+1488,Computer Networks Computer Sci in Practice,Computer Sci,"[1026,1447]",27,Meta,Intermediate,3.8
+1489,Ethical Hacking Cybersecurity Masterclass,Cybersecurity,"[1077,1451]",15,Khan Academy,Intermediate,4.8
+1490,Agile Business Professional,Business,"[1124,1043]",35,Red Hat,Advanced,4.3
+1491,Academic Writing Communication Masterclass,Communication,[],10,Stanford,Beginner,4.4
+1492,UI/UX Design Professional,Design,[],7,Atlassian,Beginner,4.2
+1493,PostgreSQL Database Zero to Hero,Database,[1436],20,Docker Inc,Intermediate,4.2
+1494,Android Mobile Dev in Practice,Mobile Dev,[1132],30,IBM,Intermediate,4.2
+1495,Network+ Networking Specialization,Networking,"[1318,1317,1013]",31,freeCodeCamp,Advanced,4.5
+1496,Mastering Programming Zero to Hero,Programming,[],12,Red Hat,Beginner,4.3
+1497,Applied Data Science for Beginners,Data Science,[],9,CNCF,Beginner,4.2
+1498,Generative AI AI Bootcamp,AI,[1137],22,Red Hat,Intermediate,4.7
+1499,Angular Web Dev with Projects,Web Dev,"[1176,1287]",30,CNCF,Intermediate,4
+1500,AWS Cloud Advanced,Cloud,"[1486,1052]",28,NPTEL,Advanced,4.8
+1501,Infrastructure DevOps Advanced,DevOps,[],15,Coursera,Beginner,4.2
+1502,Discrete Math Mathematics Zero to Hero,Mathematics,[],14,Docker Inc,Beginner,4.6
+1503,OS Concepts Computer Sci Deep Dive,Computer Sci,[1127],18,Yale,Intermediate,4.5
+1504,Penetration Cybersecurity Fundamentals,Cybersecurity,[1392],24,freeCodeCamp,Intermediate,4.6
+1505,Leadership Business Specialization,Business,"[1164,1471,1379]",44,deeplearning.ai,Advanced,4.5
+1506,Public Speaking Communication with Projects,Communication,[],13,Stanford,Beginner,3.8
+1507,Design Thinking Design Fundamentals,Design,[],7,IIT Delhi,Beginner,3.6
+1508,Cassandra Database with Projects,Database,[1337],26,Khan Academy,Intermediate,4.2
+1509,Android Mobile Dev for Beginners,Mobile Dev,"[1177,1346]",24,Khan Academy,Intermediate,4.6
+1510,SDN Networking Essentials,Networking,"[1126,1378]",32,freeCodeCamp,Advanced,4.3
+1511,Java Programming for Beginners,Programming,[],10,NPTEL,Beginner,4
+1512,Big Data Data Science Complete Guide,Data Science,[],11,Cisco,Beginner,3.5
+1513,AI for AI Zero to Hero,AI,[1451],29,Cisco,Intermediate,3.8
+1514,Next.js Web Dev Specialization,Web Dev,"[1377,1122]",20,deeplearning.ai,Intermediate,3.7
+1515,GCP Cloud Professional,Cloud,"[1249,1359]",50,Princeton,Advanced,4
+1516,Site Reliability DevOps Certification Prep,DevOps,[],12,Docker Inc,Beginner,3.8
+1517,Probability Mathematics with Projects,Mathematics,[],10,IIT Delhi,Beginner,5
+1518,Theory of Computer Sci for Beginners,Computer Sci,"[1236,1131]",27,Oracle,Intermediate,4.1
+1519,Security+ Cybersecurity Essentials,Cybersecurity,"[1431,1382]",23,Harvard,Intermediate,4.4
+1520,Lean Business Essentials,Business,"[1507,1372]",34,Yale,Advanced,4.4
+1521,Academic Writing Communication Crash Course,Communication,[],13,IIT Delhi,Beginner,4.9
+1522,Product Design Design Advanced,Design,[],11,Docker Inc,Beginner,3.9
+1523,SQL Database Bootcamp,Database,"[1167,1042]",28,IIT Delhi,Intermediate,5
+1524,Cross-Platform Mobile Dev Crash Course,Mobile Dev,"[1292,1077]",21,Linux Foundation,Intermediate,4
+1525,TCP/IP Networking Masterclass,Networking,"[1114,1027]",25,Google Cloud,Advanced,3.7
+1526,Java Programming Professional,Programming,[],10,IBM,Beginner,4
+1527,Statistical Data Science Fundamentals,Data Science,[],5,Linux Foundation,Beginner,4.9
+1528,Deep Learning AI Essentials,AI,[1402],25,deeplearning.ai,Intermediate,4.7
+1529,HTML/CSS Web Dev for Beginners,Web Dev,[1082],26,Harvard,Intermediate,3.6
+1530,Hybrid Cloud Cloud Complete Guide,Cloud,"[1508,1278]",29,IBM,Advanced,4.9
+1531,Linux DevOps Deep Dive,DevOps,[],8,Meta,Beginner,4.8
+1532,Optimization Mathematics Zero to Hero,Mathematics,[],14,Linux Foundation,Beginner,3.7
+1533,Computer Networks Computer Sci Masterclass,Computer Sci,[1221],27,deeplearning.ai,Intermediate,3.5
+1534,SOC Cybersecurity Certification Prep,Cybersecurity,"[1322,1482]",20,deeplearning.ai,Intermediate,4.1
+1535,Project Management Business in Practice,Business,"[1518,1483]",40,Cisco,Advanced,4
+1536,Presentation Communication Crash Course,Communication,[],5,Google Cloud,Beginner,3.7
+1537,UI/UX Design Essentials,Design,[],8,Harvard,Beginner,4.4
+1538,Redis Database with Projects,Database,[1137],29,Atlassian,Intermediate,4.2
+1539,Flutter Mobile Dev Complete Guide,Mobile Dev,"[1297,1052]",24,Meta,Intermediate,4.9
+1540,OSI Model Networking Bootcamp,Networking,"[1354,1178]",43,MIT OpenCourse,Advanced,3.8
+1541,Intro to Programming with Projects,Programming,[],13,Linux Foundation,Beginner,4.5
+1542,Statistical Data Science Deep Dive,Data Science,[],10,IIT Delhi,Beginner,3.8
+1543,Reinforcement AI Fundamentals,AI,"[1096,1131]",30,Meta,Intermediate,5
+1544,Angular Web Dev with Projects,Web Dev,[1272],23,Harvard,Intermediate,3.7
+1545,Cloud Cloud Certification Prep,Cloud,"[1454,1066,1247]",26,Stanford,Advanced,3.5
+1546,Site Reliability DevOps Zero to Hero,DevOps,[],5,MIT OpenCourse,Beginner,4
+1547,Discrete Math Mathematics Crash Course,Mathematics,[],10,Oracle,Beginner,3.8
+1548,Theory of Computer Sci Essentials,Computer Sci,"[1171,1367]",20,Khan Academy,Intermediate,4.1
+1549,Cryptography Cybersecurity in Practice,Cybersecurity,[1296],19,Coursera,Intermediate,3.6
+1550,Project Management Business Deep Dive,Business,"[1139,1186,1469]",46,Microsoft,Advanced,3.8
+1551,Technical Writing Communication Masterclass,Communication,[],14,Meta,Beginner,5
+1552,Product Design Design Deep Dive,Design,[],14,Yale,Beginner,4.6
+1553,Cassandra Database Certification Prep,Database,[1381],24,Red Hat,Intermediate,4.4
+1554,Kotlin Mobile Dev for Beginners,Mobile Dev,[1211],24,Infosys Springboard,Intermediate,4.7
+1555,Wireless Networking Networking in Practice,Networking,"[1522,1177]",50,Meta,Advanced,4.4
+1556,Core Programming in Practice,Programming,[],13,Harvard,Beginner,4.3
+1557,Practical Data Science Complete Guide,Data Science,[],12,IBM,Beginner,4
+1558,Deep Learning AI Professional,AI,"[1501,1517]",15,Stanford,Intermediate,3.5
+1559,Angular Web Dev Deep Dive,Web Dev,"[1042,1121]",20,freeCodeCamp,Intermediate,3.7
+1560,Cloud Cloud Professional,Cloud,"[1501,1416,1321]",44,CNCF,Advanced,4.7
+1561,Linux DevOps Crash Course,DevOps,[],15,IBM,Beginner,4.7
+1562,Discrete Math Mathematics Deep Dive,Mathematics,[],14,Meta,Beginner,4.4
+1563,Theory of Computer Sci with Projects,Computer Sci,[1231],27,Harvard,Intermediate,3.9
+1564,SOC Cybersecurity Deep Dive,Cybersecurity,"[1332,1532]",27,Linux Foundation,Intermediate,4.1
+1565,Business Analytics Business Certification Prep,Business,"[1057,1168,1518]",42,Oracle,Advanced,4.5
+1566,Presentation Communication Deep Dive,Communication,[],14,Harvard,Beginner,4.3
+1567,Prototyping Design Fundamentals,Design,[],15,Microsoft,Beginner,3.7
+1568,NoSQL Database for Beginners,Database,[1061],17,Docker Inc,Intermediate,3.6
+1569,iOS Mobile Dev Fundamentals,Mobile Dev,"[1116,1232]",24,freeCodeCamp,Intermediate,4.5
+1570,SDN Networking Essentials,Networking,"[1478,1033,1259]",42,Cisco,Advanced,4.2
+1571,C++ and Programming Masterclass,Programming,[],5,Amazon AWS,Beginner,3.8
+1572,Big Data Data Science Essentials,Data Science,[],12,Yale,Beginner,4.7
+1573,Reinforcement AI Complete Guide,AI,"[1046,1071]",26,deeplearning.ai,Intermediate,4.7
+1574,Node.js Web Dev with Projects,Web Dev,"[1196,1322]",22,Udemy,Intermediate,4.1
+1575,Serverless Cloud Fundamentals,Cloud,"[1406,1378]",43,IIT Delhi,Advanced,4
+1576,Linux DevOps Advanced,DevOps,[],12,deeplearning.ai,Beginner,4.5
+1577,Probability Mathematics Deep Dive,Mathematics,[],8,Khan Academy,Beginner,4.4
+1578,Algorithms Computer Sci Certification Prep,Computer Sci,"[1387,1166]",28,freeCodeCamp,Intermediate,4.9
+1579,Ethical Hacking Cybersecurity Bootcamp,Cybersecurity,[1002],28,Udemy,Intermediate,3.9
+1580,Lean Business Professional,Business,"[1314,1537,1071]",45,IBM,Advanced,3.5
+1581,Presentation Communication Bootcamp,Communication,[],13,Docker Inc,Beginner,3.7
+1582,Interaction Design Deep Dive,Design,[],11,Infosys Springboard,Beginner,4.3
+1583,Database Design Database Advanced,Database,"[1352,1006]",26,Harvard,Intermediate,4.4
+1584,Swift Mobile Dev for Beginners,Mobile Dev,"[1557,1427]",23,Oracle,Intermediate,3.8
+1585,OSI Model Networking Complete Guide,Networking,"[1194,1456]",26,NPTEL,Advanced,4.8
+1586,Java Programming Masterclass,Programming,[],8,MIT OpenCourse,Beginner,4.9
+1587,Exploratory Data Science Crash Course,Data Science,[],11,Docker Inc,Beginner,3.6
+1588,Deep Learning AI for Beginners,AI,"[1021,1542]",20,Docker Inc,Intermediate,4.3
+1589,React Web Dev Bootcamp,Web Dev,"[1331,1497]",28,Stanford,Intermediate,4.7
+1590,Cloud Cloud Specialization,Cloud,"[1442,1426]",39,Meta,Advanced,4.1
+1591,CI/CD DevOps Essentials,DevOps,[],15,Meta,Beginner,3.6
+1592,Statistics Mathematics Crash Course,Mathematics,[],5,Amazon AWS,Beginner,3.8
+1593,Theory of Computer Sci Masterclass,Computer Sci,[1426],22,deeplearning.ai,Intermediate,3.7
+1594,SOC Cybersecurity Deep Dive,Cybersecurity,[1156],20,Yale,Intermediate,4.7
+1595,MBA Essentials Business Professional,Business,"[1228,1339,1069]",30,Red Hat,Advanced,4.3
+1596,English for Communication Fundamentals,Communication,[],13,freeCodeCamp,Beginner,5
+1597,Graphic Design Design Fundamentals,Design,[],9,CNCF,Beginner,4.8
+1598,Cassandra Database Deep Dive,Database,"[1367,1597]",20,Udemy,Intermediate,3.6
+1599,React Native Mobile Dev Fundamentals,Mobile Dev,"[1341,1456]",26,Yale,Intermediate,4.1
+1600,Network+ Networking Specialization,Networking,"[1172,1217]",46,Oracle,Advanced,4.9
+1601,Advanced Programming with Projects,Programming,[],9,CNCF,Beginner,4.2
+1602,Big Data Data Science Masterclass,Data Science,[],7,NPTEL,Beginner,4.8
+1603,NLP AI for Beginners,AI,[1091],30,Meta,Intermediate,3.9
+1604,Node.js Web Dev in Practice,Web Dev,"[1256,1432]",26,NPTEL,Intermediate,4.9
+1605,Hybrid Cloud Cloud Bootcamp,Cloud,"[1343,1143]",44,Harvard,Advanced,4.7
+1606,CI/CD DevOps Crash Course,DevOps,[],7,IBM,Beginner,4.9
+1607,Number Theory Mathematics in Practice,Mathematics,[],13,Google Cloud,Beginner,3.8
+1608,Compilers Computer Sci for Beginners,Computer Sci,"[1547,1131]",30,Google Cloud,Intermediate,3.6
+1609,Network Security Cybersecurity Crash Course,Cybersecurity,[1217],15,Coursera,Intermediate,4.8
+1610,Project Management Business Certification Prep,Business,"[1518,1187]",50,Cisco,Advanced,3.7
+1611,Technical Writing Communication Zero to Hero,Communication,[],5,Coursera,Beginner,4.4
+1612,Product Design Design Specialization,Design,[],7,Microsoft,Beginner,4.7
+1613,Cassandra Database Complete Guide,Database,"[1242,1357]",30,Khan Academy,Intermediate,4.2
+1614,Swift Mobile Dev Specialization,Mobile Dev,"[1257,1342]",21,deeplearning.ai,Intermediate,4.6
+1615,OSI Model Networking Zero to Hero,Networking,"[1567,1137]",47,MIT OpenCourse,Advanced,4.1
+1616,Core Programming Crash Course,Programming,[],6,Udemy,Beginner,4.1
+1617,Big Data Data Science Fundamentals,Data Science,[],10,Cisco,Beginner,3.7
+1618,Reinforcement AI Professional,AI,"[1386,1176]",28,Meta,Intermediate,4.2
+1619,Vue.js Web Dev with Projects,Web Dev,"[1511,1016]",25,Atlassian,Intermediate,4.7
+1620,GCP Cloud for Beginners,Cloud,"[1093,1556,1104]",30,Red Hat,Advanced,4.5
+1621,Infrastructure DevOps Specialization,DevOps,[],5,Linux Foundation,Beginner,4.4
+1622,Optimization Mathematics Certification Prep,Mathematics,[],7,Google Cloud,Beginner,4.6
+1623,Computer Networks Computer Sci Fundamentals,Computer Sci,[1337],25,Microsoft,Intermediate,4
+1624,Penetration Cybersecurity for Beginners,Cybersecurity,[1311],26,Khan Academy,Intermediate,5
+1625,Leadership Business Masterclass,Business,"[1283,1397,1262]",32,Microsoft,Advanced,4.1
+1626,Business English Communication Fundamentals,Communication,[],5,Meta,Beginner,4.5
+1627,Prototyping Design Masterclass,Design,[],5,Udemy,Beginner,4.9
+1628,MongoDB Database with Projects,Database,"[1186,1537]",21,Infosys Springboard,Intermediate,4.3
+1629,Flutter Mobile Dev Specialization,Mobile Dev,"[1547,1051]",22,Docker Inc,Intermediate,3.7
+1630,SDN Networking in Practice,Networking,"[1599,1244]",36,Udemy,Advanced,4.5
+1631,Core Programming Zero to Hero,Programming,[],11,Atlassian,Beginner,4.7
+1632,Practical Data Science for Beginners,Data Science,[],14,Docker Inc,Beginner,4.1
+1633,Generative AI AI Fundamentals,AI,[1607],25,Oracle,Intermediate,3.9
+1634,Vue.js Web Dev Advanced,Web Dev,"[1436,1251]",30,Yale,Intermediate,4.4
+1635,Serverless Cloud Professional,Cloud,"[1374,1046,1622]",43,IBM,Advanced,4.5
+1636,Site Reliability DevOps Zero to Hero,DevOps,[],14,IBM,Beginner,3.8
+1637,Statistics Mathematics Professional,Mathematics,[],11,freeCodeCamp,Beginner,4.9
+1638,Computer Networks Computer Sci Professional,Computer Sci,[1617],19,Microsoft,Intermediate,4.8
+1639,Cryptography Cybersecurity Bootcamp,Cybersecurity,[1247],26,Red Hat,Intermediate,4.6
+1640,Leadership Business Masterclass,Business,"[1238,1627]",32,Red Hat,Advanced,4.2
+1641,Storytelling Communication Professional,Communication,[],6,deeplearning.ai,Beginner,4.5
+1642,Graphic Design Design Masterclass,Design,[],13,CNCF,Beginner,4.9
+1643,NoSQL Database Professional,Database,"[1407,1446]",19,Google Cloud,Intermediate,3.9
+1644,iOS Mobile Dev with Projects,Mobile Dev,[1052],17,Atlassian,Intermediate,4.5
+1645,Network Admin Networking in Practice,Networking,"[1333,1019,1283]",50,Meta,Advanced,3.8
+1646,C++ and Programming Specialization,Programming,[],12,Khan Academy,Beginner,4.4
+1647,Exploratory Data Science Deep Dive,Data Science,[],12,Google Cloud,Beginner,3.7
+1648,AI for AI Advanced,AI,[1296],27,NPTEL,Intermediate,3.8
+1649,Full-Stack Web Dev Complete Guide,Web Dev,[1497],25,Stanford,Intermediate,3.8
+1650,Cloud Cloud Bootcamp,Cloud,"[1079,1557]",27,Harvard,Advanced,3.5
+1651,Docker DevOps Bootcamp,DevOps,[],14,Amazon AWS,Beginner,4.6
+1652,Number Theory Mathematics with Projects,Mathematics,[],12,Udemy,Beginner,3.8
+1653,System Design Computer Sci in Practice,Computer Sci,[1497],30,Red Hat,Intermediate,4.4
+1654,Penetration Cybersecurity Professional,Cybersecurity,[1467],20,IBM,Intermediate,5
+1655,Lean Business Deep Dive,Business,"[1211,1132,1573]",42,Red Hat,Advanced,3.7
+1656,Academic Writing Communication Bootcamp,Communication,[],5,Meta,Beginner,3.9
+1657,Figma Design for Beginners,Design,[],15,Coursera,Beginner,4.1
+1658,MongoDB Database in Practice,Database,[1322],18,freeCodeCamp,Intermediate,3.8
+1659,Android Mobile Dev Professional,Mobile Dev,"[1226,1197]",18,Amazon AWS,Intermediate,4.3
+1660,Wireless Networking Networking in Practice,Networking,"[1126,1127,1043]",44,Google Cloud,Advanced,4.3
+1661,C++ and Programming Essentials,Programming,[],14,Udemy,Beginner,3.6
+1662,Big Data Data Science Advanced,Data Science,[],8,Khan Academy,Beginner,4.6
+1663,NLP AI for Beginners,AI,"[1207,1026]",30,Oracle,Intermediate,3.8
+1664,HTML/CSS Web Dev Deep Dive,Web Dev,[1171],25,Cisco,Intermediate,3.5
+1665,AWS Cloud for Beginners,Cloud,"[1597,1303,1457]",42,Harvard,Advanced,3.9
+1666,DevOps DevOps for Beginners,DevOps,[],10,Oracle,Beginner,3.6
+1667,Calculus Mathematics Zero to Hero,Mathematics,[],6,Stanford,Beginner,4.2
+1668,Computer Networks Computer Sci Crash Course,Computer Sci,"[1517,1632]",27,IBM,Intermediate,3.7
+1669,Incident Response Cybersecurity Specialization,Cybersecurity,"[1097,1062]",29,Princeton,Intermediate,4.9
+1670,MBA Essentials Business Deep Dive,Business,"[1523,1423]",27,deeplearning.ai,Advanced,4.8
+1671,Business English Communication Specialization,Communication,[],7,CNCF,Beginner,3.5
+1672,Figma Design Specialization,Design,[],13,Coursera,Beginner,4.8
+1673,NoSQL Database Advanced,Database,[1267],27,deeplearning.ai,Intermediate,4.1
+1674,React Native Mobile Dev Specialization,Mobile Dev,[1512],21,freeCodeCamp,Intermediate,4.3
+1675,OSI Model Networking Advanced,Networking,"[1099,1024,1622]",47,CNCF,Advanced,4.1
+1676,Intro to Programming Essentials,Programming,[],13,Harvard,Beginner,4.9
+1677,Statistical Data Science Deep Dive,Data Science,[],15,Linux Foundation,Beginner,3.9
+1678,Generative AI AI Essentials,AI,[1462],27,Red Hat,Intermediate,3.6
+1679,Full-Stack Web Dev Complete Guide,Web Dev,[1026],20,Red Hat,Intermediate,4.6
+1680,Azure Cloud Fundamentals,Cloud,"[1536,1251,1289]",34,MIT OpenCourse,Advanced,4.7
+1681,DevOps DevOps Bootcamp,DevOps,[],11,MIT OpenCourse,Beginner,3.9
+1682,Calculus Mathematics Crash Course,Mathematics,[],8,deeplearning.ai,Beginner,4.2
+1683,OS Concepts Computer Sci with Projects,Computer Sci,[1636],19,Coursera,Intermediate,4.3
+1684,Ethical Hacking Cybersecurity Professional,Cybersecurity,"[1272,1266]",24,Linux Foundation,Intermediate,4
+1685,MBA Essentials Business Specialization,Business,"[1491,1671]",46,Cisco,Advanced,4.3
+1686,Business English Communication Fundamentals,Communication,[],11,Khan Academy,Beginner,4.6
+1687,Design Thinking Design with Projects,Design,[],12,IIT Delhi,Beginner,3.9
+1688,Redis Database Fundamentals,Database,[1056],27,Docker Inc,Intermediate,4.7
+1689,Kotlin Mobile Dev Advanced,Mobile Dev,"[1156,1012]",27,Google Cloud,Intermediate,4.3
+1690,TCP/IP Networking Complete Guide,Networking,"[1571,1633]",42,Khan Academy,Advanced,4.3
+1691,Python for Programming Advanced,Programming,[],13,Cisco,Beginner,4.9
+1692,Applied Data Science Bootcamp,Data Science,[],11,Linux Foundation,Beginner,4.5
+1693,Reinforcement AI Masterclass,AI,"[1146,1616]",29,Cisco,Intermediate,3.7
+1694,Angular Web Dev Zero to Hero,Web Dev,[1252],27,Udemy,Intermediate,4.5
+1695,Azure Cloud Certification Prep,Cloud,"[1528,1272,1409]",49,Khan Academy,Advanced,4.9
+1696,DevOps DevOps Deep Dive,DevOps,[],8,NPTEL,Beginner,3.7
+1697,Linear Algebra Mathematics Complete Guide,Mathematics,[],14,Red Hat,Beginner,4.1
+1698,Compilers Computer Sci Specialization,Computer Sci,[1696],23,Linux Foundation,Intermediate,4.9
+1699,Penetration Cybersecurity Specialization,Cybersecurity,[1566],27,Google Cloud,Intermediate,3.9
+1700,Agile Business for Beginners,Business,"[1463,1331,1474]",28,Yale,Advanced,3.8
+1701,Academic Writing Communication Crash Course,Communication,[],11,Oracle,Beginner,4.2
+1702,Graphic Design Design Complete Guide,Design,[],13,Red Hat,Beginner,4.5
+1703,Redis Database Complete Guide,Database,"[1241,1007]",28,IIT Delhi,Intermediate,3.8
+1704,Kotlin Mobile Dev Complete Guide,Mobile Dev,"[1206,1186]",30,Microsoft,Intermediate,4.6
+1705,Network+ Networking Certification Prep,Networking,"[1039,1288]",39,NPTEL,Advanced,4.9
+1706,Java Programming in Practice,Programming,[],6,MIT OpenCourse,Beginner,4.5
+1707,Analytics Data Science Crash Course,Data Science,[],6,Stanford,Beginner,3.8
+1708,Reinforcement AI Fundamentals,AI,"[1361,1557]",21,Google Cloud,Intermediate,3.6
+1709,React Web Dev Specialization,Web Dev,[1331],24,IIT Delhi,Intermediate,3.6
+1710,Hybrid Cloud Cloud Fundamentals,Cloud,"[1219,1238]",25,Meta,Advanced,4.7
+1711,CI/CD DevOps Certification Prep,DevOps,[],10,IBM,Beginner,4.8
+1712,Probability Mathematics Masterclass,Mathematics,[],8,IIT Delhi,Beginner,4.2
+1713,OS Concepts Computer Sci Complete Guide,Computer Sci,"[1567,1602]",17,freeCodeCamp,Intermediate,3.9
+1714,Penetration Cybersecurity Fundamentals,Cybersecurity,[1172],18,Cisco,Intermediate,4.5
+1715,Project Management Business Zero to Hero,Business,"[1512,1627,1384]",26,Khan Academy,Advanced,4.9
+1716,Presentation Communication Bootcamp,Communication,[],13,freeCodeCamp,Beginner,4.3
+1717,Figma Design Essentials,Design,[],12,IIT Delhi,Beginner,4.9
+1718,MongoDB Database Complete Guide,Database,[1277],17,Docker Inc,Intermediate,4.1
+1719,iOS Mobile Dev Advanced,Mobile Dev,[1076],17,Linux Foundation,Intermediate,3.8
+1720,Wireless Networking Networking Professional,Networking,"[1122,1456]",44,IIT Delhi,Advanced,3.8
+1721,Mastering Programming Professional,Programming,[],10,Coursera,Beginner,3.8
+1722,Statistical Data Science with Projects,Data Science,[],6,Khan Academy,Beginner,3.8
+1723,Neural Networks AI for Beginners,AI,"[1652,1297]",22,Red Hat,Intermediate,3.9
+1724,Full-Stack Web Dev Bootcamp,Web Dev,[1657],28,Red Hat,Intermediate,4.5
+1725,Serverless Cloud Complete Guide,Cloud,"[1181,1217]",30,Amazon AWS,Advanced,4.5
+1726,Linux DevOps Deep Dive,DevOps,[],13,Khan Academy,Beginner,4.7
+1727,Optimization Mathematics Bootcamp,Mathematics,[],15,Infosys Springboard,Beginner,3.6
+1728,Algorithms Computer Sci Essentials,Computer Sci,"[1336,1667]",22,Yale,Intermediate,5
+1729,Incident Response Cybersecurity Certification Prep,Cybersecurity,[1352],26,Google Cloud,Intermediate,4.9
+1730,Lean Business Masterclass,Business,"[1428,1413]",39,Stanford,Advanced,3.5
+1731,Presentation Communication with Projects,Communication,[],10,Atlassian,Beginner,4.5
+1732,Interaction Design Fundamentals,Design,[],11,Harvard,Beginner,3.6
+1733,Cassandra Database Zero to Hero,Database,"[1437,1276]",29,Udemy,Intermediate,3.8
+1734,Kotlin Mobile Dev Crash Course,Mobile Dev,"[1287,1091]",23,Udemy,Intermediate,4.5
+1735,Network Admin Networking Masterclass,Networking,"[1357,1689,1683]",44,Infosys Springboard,Advanced,4.6
+1736,C++ and Programming Specialization,Programming,[],9,Coursera,Beginner,4.1
+1737,Data Data Science Advanced,Data Science,[],9,Linux Foundation,Beginner,4.5
+1738,Deep Learning AI Professional,AI,"[1576,1157]",16,Microsoft,Intermediate,4.1
+1739,React Web Dev Crash Course,Web Dev,"[1121,1481]",20,Udemy,Intermediate,3.8
+1740,AWS Cloud Bootcamp,Cloud,"[1192,1071]",42,CNCF,Advanced,4.2
+1741,CI/CD DevOps in Practice,DevOps,[],11,Amazon AWS,Beginner,3.9
+1742,Optimization Mathematics Crash Course,Mathematics,[],6,IBM,Beginner,4.8
+1743,Algorithms Computer Sci Zero to Hero,Computer Sci,"[1281,1331]",18,IBM,Intermediate,3.7
+1744,Network Security Cybersecurity Bootcamp,Cybersecurity,"[1596,1146]",22,Google Cloud,Intermediate,4.5
+1745,MBA Essentials Business Fundamentals,Business,"[1462,1094]",31,Linux Foundation,Advanced,4.6
+1746,Storytelling Communication in Practice,Communication,[],9,IIT Delhi,Beginner,3.8
+1747,Product Design Design Complete Guide,Design,[],11,Microsoft,Beginner,4
+1748,Cassandra Database Advanced,Database,[1481],19,Harvard,Intermediate,3.9
+1749,Kotlin Mobile Dev Masterclass,Mobile Dev,"[1721,1156]",21,Udemy,Intermediate,4.7
+1750,OSI Model Networking with Projects,Networking,"[1304,1109]",48,IIT Delhi,Advanced,4.8
+1751,Core Programming Professional,Programming,[],14,Stanford,Beginner,4.3
+1752,Applied Data Science in Practice,Data Science,[],6,freeCodeCamp,Beginner,4.2
+1753,Generative AI AI Zero to Hero,AI,[1316],26,deeplearning.ai,Intermediate,3.7
+1754,React Web Dev for Beginners,Web Dev,"[1167,1427]",19,Stanford,Intermediate,3.7
+1755,Azure Cloud Fundamentals,Cloud,"[1093,1041,1126]",42,NPTEL,Advanced,3.6
+1756,Kubernetes DevOps Deep Dive,DevOps,[],6,Atlassian,Beginner,4.1
+1757,Number Theory Mathematics Professional,Mathematics,[],13,deeplearning.ai,Beginner,3.6
+1758,Compilers Computer Sci for Beginners,Computer Sci,"[1707,1207]",26,Harvard,Intermediate,4.8
+1759,Security+ Cybersecurity Bootcamp,Cybersecurity,"[1306,1381]",21,deeplearning.ai,Intermediate,4.2
+1760,MBA Essentials Business in Practice,Business,"[1596,1627,1436]",26,MIT OpenCourse,Advanced,4.2
+1761,Public Speaking Communication Fundamentals,Communication,[],11,freeCodeCamp,Beginner,4.6
+1762,Interaction Design in Practice,Design,[],8,Microsoft,Beginner,4.2
+1763,SQL Database Certification Prep,Database,"[1012,1337]",25,NPTEL,Intermediate,5
+1764,Swift Mobile Dev Deep Dive,Mobile Dev,[1547],24,Cisco,Intermediate,4.9
+1765,SDN Networking with Projects,Networking,"[1708,1384]",30,Oracle,Advanced,4.6
+1766,C++ and Programming in Practice,Programming,[],5,IIT Delhi,Beginner,3.6
+1767,Data Data Science Masterclass,Data Science,[],13,Khan Academy,Beginner,4.2
+1768,Machine Learning AI Professional,AI,"[1636,1266]",21,Atlassian,Intermediate,4.1
+1769,HTML/CSS Web Dev Essentials,Web Dev,[1017],25,Khan Academy,Intermediate,4.9
+1770,Cloud Cloud Fundamentals,Cloud,"[1582,1308]",34,Docker Inc,Advanced,4.7
+1771,Docker DevOps Certification Prep,DevOps,[],7,Udemy,Beginner,3.9
+1772,Calculus Mathematics Advanced,Mathematics,[],6,Red Hat,Beginner,4
+1773,Data Structures Computer Sci with Projects,Computer Sci,"[1141,1186]",29,deeplearning.ai,Intermediate,5
+1774,Security+ Cybersecurity Specialization,Cybersecurity,"[1012,1232]",25,Amazon AWS,Intermediate,4.5
+1775,MBA Essentials Business Crash Course,Business,"[1368,1707,1171]",30,IIT Delhi,Advanced,3.8
+1776,Technical Writing Communication Bootcamp,Communication,[],9,IBM,Beginner,4.5
+1777,UI/UX Design Fundamentals,Design,[],6,IBM,Beginner,4.5
+1778,Redis Database Advanced,Database,[1361],23,MIT OpenCourse,Intermediate,4.9
+1779,Cross-Platform Mobile Dev Advanced,Mobile Dev,"[1486,1772]",28,Oracle,Intermediate,4.6
+1780,Network Admin Networking Complete Guide,Networking,"[1078,1272]",39,Coursera,Advanced,3.6
+1781,Mastering Programming Zero to Hero,Programming,[],11,Stanford,Beginner,4.5
+1782,Practical Data Science for Beginners,Data Science,[],6,Microsoft,Beginner,3.6
+1783,Deep Learning AI Specialization,AI,"[1002,1447]",20,IBM,Intermediate,4.1
+1784,Angular Web Dev Fundamentals,Web Dev,"[1317,1487]",22,Google Cloud,Intermediate,4.6
+1785,AWS Cloud Bootcamp,Cloud,"[1643,1377]",50,Stanford,Advanced,3.8
+1786,Infrastructure DevOps with Projects,DevOps,[],5,Docker Inc,Beginner,4.3
+1787,Statistics Mathematics Bootcamp,Mathematics,[],9,IBM,Beginner,5
+1788,System Design Computer Sci in Practice,Computer Sci,"[1746,1751]",20,Microsoft,Intermediate,4.5
+1789,Network Security Cybersecurity in Practice,Cybersecurity,[1107],26,Meta,Intermediate,3.5
+1790,Project Management Business Professional,Business,"[1483,1512]",25,Harvard,Advanced,4.7
+1791,Technical Writing Communication in Practice,Communication,[],5,Oracle,Beginner,3.8
+1792,Prototyping Design Crash Course,Design,[],10,Princeton,Beginner,4.1
+1793,PostgreSQL Database Masterclass,Database,[1366],15,NPTEL,Intermediate,4.2
+1794,iOS Mobile Dev for Beginners,Mobile Dev,[1556],16,Khan Academy,Intermediate,4.6
+1795,Cisco CCNA Networking Fundamentals,Networking,"[1719,1151,1647]",38,Google Cloud,Advanced,3.6
+1796,Intro to Programming Complete Guide,Programming,[],12,Red Hat,Beginner,4.4
+1797,Exploratory Data Science Bootcamp,Data Science,[],15,Coursera,Beginner,4.4
+1798,AI for AI for Beginners,AI,[1331],29,Docker Inc,Intermediate,4
+1799,Full-Stack Web Dev Masterclass,Web Dev,"[1266,1501]",23,Coursera,Intermediate,3.6
+1800,Cloud-Native Cloud Bootcamp,Cloud,"[1334,1523,1732]",50,deeplearning.ai,Advanced,3.6
+1801,DevOps DevOps Zero to Hero,DevOps,[],7,Yale,Beginner,4
+1802,Discrete Math Mathematics Bootcamp,Mathematics,[],6,Meta,Beginner,3.8
+1803,Data Structures Computer Sci in Practice,Computer Sci,"[1031,1041]",27,Amazon AWS,Intermediate,4
+1804,SOC Cybersecurity Crash Course,Cybersecurity,"[1736,1727]",30,Yale,Intermediate,3.7
+1805,Lean Business Complete Guide,Business,"[1611,1052,1493]",48,Harvard,Advanced,3.8
+1806,Academic Writing Communication Crash Course,Communication,[],8,Harvard,Beginner,4.4
+1807,Design Thinking Design Masterclass,Design,[],9,Atlassian,Beginner,4.5
+1808,Database Design Database Essentials,Database,"[1667,1067]",18,Amazon AWS,Intermediate,4.7
+1809,Flutter Mobile Dev Essentials,Mobile Dev,"[1221,1392]",20,Oracle,Intermediate,3.8
+1810,Network Admin Networking Complete Guide,Networking,"[1466,1424]",48,Oracle,Advanced,3.9
+1811,Python for Programming Certification Prep,Programming,[],9,NPTEL,Beginner,3.9
+1812,Applied Data Science in Practice,Data Science,[],8,Microsoft,Beginner,3.8
+1813,NLP AI with Projects,AI,[1521],17,Microsoft,Intermediate,4.8
+1814,Node.js Web Dev Fundamentals,Web Dev,"[1461,1427]",22,IIT Delhi,Intermediate,4.2
+1815,Serverless Cloud Bootcamp,Cloud,"[1498,1624]",49,Atlassian,Advanced,5
+1816,Infrastructure DevOps Complete Guide,DevOps,[],11,Khan Academy,Beginner,4.9
+1817,Statistics Mathematics Crash Course,Mathematics,[],7,CNCF,Beginner,3.8
+1818,Theory of Computer Sci Advanced,Computer Sci,[1342],26,NPTEL,Intermediate,4.5
+1819,Security+ Cybersecurity Deep Dive,Cybersecurity,"[1351,1527]",23,Khan Academy,Intermediate,3.9
+1820,Business Analytics Business Complete Guide,Business,"[1117,1008,1648]",31,CNCF,Advanced,4.9
+1821,English for Communication Certification Prep,Communication,[],11,Atlassian,Beginner,4.4
+1822,Product Design Design in Practice,Design,[],12,Yale,Beginner,3.8
+1823,Database Design Database Essentials,Database,"[1257,1611]",17,freeCodeCamp,Intermediate,4.4
+1824,React Native Mobile Dev Crash Course,Mobile Dev,"[1197,1372]",29,Linux Foundation,Intermediate,3.6
+1825,SDN Networking Complete Guide,Networking,"[1351,1813,1761]",38,MIT OpenCourse,Advanced,4
+1826,Core Programming Professional,Programming,[],12,IIT Delhi,Beginner,4.6
+1827,Practical Data Science for Beginners,Data Science,[],5,NPTEL,Beginner,4.4
+1828,AI for AI Crash Course,AI,[1282],15,Harvard,Intermediate,4.3
+1829,Next.js Web Dev Bootcamp,Web Dev,"[1356,1742]",28,Infosys Springboard,Intermediate,3.7
+1830,Serverless Cloud Bootcamp,Cloud,"[1233,1356,1251]",49,Udemy,Advanced,4
+1831,Kubernetes DevOps Masterclass,DevOps,[],15,Oracle,Beginner,4.3
+1832,Optimization Mathematics with Projects,Mathematics,[],13,Princeton,Beginner,4.7
+1833,Algorithms Computer Sci Masterclass,Computer Sci,"[1117,1276]",29,MIT OpenCourse,Intermediate,4.7
+1834,SOC Cybersecurity Crash Course,Cybersecurity,[1026],20,Coursera,Intermediate,3.5
+1835,Business Analytics Business Crash Course,Business,"[1638,1376,1209]",45,IBM,Advanced,4.2
+1836,Presentation Communication with Projects,Communication,[],7,Amazon AWS,Beginner,3.8
+1837,Figma Design for Beginners,Design,[],15,Yale,Beginner,4.7
+1838,Cassandra Database Deep Dive,Database,"[1322,1072]",28,Stanford,Intermediate,3.8
+1839,Cross-Platform Mobile Dev for Beginners,Mobile Dev,"[1207,1691]",26,Coursera,Intermediate,3.8
+1840,Wireless Networking Networking Fundamentals,Networking,"[1557,1008]",40,IIT Delhi,Advanced,3.5
+1841,Core Programming Professional,Programming,[],5,Stanford,Beginner,4.7
+1842,Analytics Data Science Advanced,Data Science,[],14,CNCF,Beginner,4.6
+1843,NLP AI Masterclass,AI,[1837],29,Linux Foundation,Intermediate,5
+1844,Next.js Web Dev Crash Course,Web Dev,"[1832,1696]",23,Linux Foundation,Intermediate,4.2
+1845,Azure Cloud Zero to Hero,Cloud,"[1106,1751]",39,Infosys Springboard,Advanced,4.1
+1846,Docker DevOps for Beginners,DevOps,[],6,Princeton,Beginner,4.9
+1847,Calculus Mathematics Bootcamp,Mathematics,[],13,freeCodeCamp,Beginner,3.8
+1848,Data Structures Computer Sci for Beginners,Computer Sci,[1721],22,Harvard,Intermediate,5
+1849,Network Security Cybersecurity Deep Dive,Cybersecurity,"[1577,1827]",17,Infosys Springboard,Intermediate,4.7
+1850,Business Analytics Business Zero to Hero,Business,"[1567,1064,1356]",28,freeCodeCamp,Advanced,4.4
+1851,Storytelling Communication with Projects,Communication,[],8,Meta,Beginner,4.2
+1852,UI/UX Design Complete Guide,Design,[],9,IBM,Beginner,3.5
+1853,Database Design Database Fundamentals,Database,"[1737,1441]",23,freeCodeCamp,Intermediate,4.6
+1854,Flutter Mobile Dev Essentials,Mobile Dev,[1847],23,Oracle,Intermediate,4.7
+1855,Cisco CCNA Networking Advanced,Networking,"[1436,1258]",35,Meta,Advanced,4.1
+1856,Intro to Programming in Practice,Programming,[],11,Meta,Beginner,3.9
+1857,Big Data Data Science Specialization,Data Science,[],11,freeCodeCamp,Beginner,4.5
+1858,Neural Networks AI Deep Dive,AI,[1737],25,Microsoft,Intermediate,4.8
+1859,HTML/CSS Web Dev Advanced,Web Dev,"[1492,1287]",30,Meta,Intermediate,4.7
+1860,Hybrid Cloud Cloud Complete Guide,Cloud,"[1563,1341,1523]",34,CNCF,Advanced,4.1
+1861,Linux DevOps Deep Dive,DevOps,[],9,Meta,Beginner,3.9
+1862,Linear Algebra Mathematics Complete Guide,Mathematics,[],5,Stanford,Beginner,3.9
+1863,Computer Networks Computer Sci Masterclass,Computer Sci,[1261],20,Harvard,Intermediate,4.4
+1864,Incident Response Cybersecurity Zero to Hero,Cybersecurity,"[1627,1416]",28,Udemy,Intermediate,5
+1865,Business Analytics Business Fundamentals,Business,"[1149,1498,1648]",47,Red Hat,Advanced,3.8
+1866,Public Speaking Communication for Beginners,Communication,[],13,MIT OpenCourse,Beginner,3.7
+1867,Product Design Design Advanced,Design,[],10,IBM,Beginner,4.4
+1868,PostgreSQL Database Professional,Database,"[1836,1792]",27,Atlassian,Intermediate,4.8
+1869,iOS Mobile Dev in Practice,Mobile Dev,"[1122,1092]",26,Meta,Intermediate,3.6
+1870,Cisco CCNA Networking with Projects,Networking,"[1644,1707]",40,Khan Academy,Advanced,4.2
+1871,Python for Programming for Beginners,Programming,[],5,CNCF,Beginner,3.8
+1872,Statistical Data Science in Practice,Data Science,[],10,IBM,Beginner,3.5
+1873,AI for AI Essentials,AI,"[1761,1256]",15,Atlassian,Intermediate,4.8
+1874,React Web Dev Masterclass,Web Dev,[1392],19,Atlassian,Intermediate,4.5
+1875,Cloud Cloud Certification Prep,Cloud,"[1148,1459,1009]",38,Infosys Springboard,Advanced,3.9
+1876,Infrastructure DevOps Certification Prep,DevOps,[],7,NPTEL,Beginner,3.9
+1877,Statistics Mathematics Essentials,Mathematics,[],5,Red Hat,Beginner,4.7
+1878,OS Concepts Computer Sci Complete Guide,Computer Sci,[1566],18,freeCodeCamp,Intermediate,4.8
+1879,Security+ Cybersecurity Specialization,Cybersecurity,[1281],24,Infosys Springboard,Intermediate,4.3
+1880,Agile Business Complete Guide,Business,"[1084,1752,1456]",40,CNCF,Advanced,4
+1881,English for Communication Advanced,Communication,[],10,Linux Foundation,Beginner,5
+1882,UI/UX Design Zero to Hero,Design,[],9,Linux Foundation,Beginner,4.1
+1883,SQL Database Deep Dive,Database,[1421],15,Linux Foundation,Intermediate,3.7
+1884,Flutter Mobile Dev Essentials,Mobile Dev,"[1126,1521]",24,Google Cloud,Intermediate,3.8
+1885,OSI Model Networking Professional,Networking,"[1256,1404]",40,Google Cloud,Advanced,4.1
+1886,Mastering Programming Certification Prep,Programming,[],10,NPTEL,Beginner,3.9
+1887,Applied Data Science with Projects,Data Science,[],14,Infosys Springboard,Beginner,4.1
+1888,Neural Networks AI with Projects,AI,[1041],22,CNCF,Intermediate,4.1
+1889,React Web Dev Deep Dive,Web Dev,"[1866,1561]",30,Cisco,Intermediate,3.7
+1890,Cloud Cloud for Beginners,Cloud,"[1186,1172,1292]",44,Oracle,Advanced,4.7
+1891,DevOps DevOps Crash Course,DevOps,[],9,Docker Inc,Beginner,4.6
+1892,Calculus Mathematics Specialization,Mathematics,[],8,Stanford,Beginner,3.6
+1893,Data Structures Computer Sci Advanced,Computer Sci,[1847],30,Yale,Intermediate,4.5
+1894,Cryptography Cybersecurity Deep Dive,Cybersecurity,[1521],18,Google Cloud,Intermediate,3.6
+1895,Project Management Business Zero to Hero,Business,"[1074,1671,1512]",29,Harvard,Advanced,4.6
+1896,Business English Communication in Practice,Communication,[],8,deeplearning.ai,Beginner,5
+1897,Figma Design Fundamentals,Design,[],13,Oracle,Beginner,4.2
+1898,SQL Database for Beginners,Database,[1277],18,Oracle,Intermediate,4.6
+1899,Cross-Platform Mobile Dev Zero to Hero,Mobile Dev,[1131],19,Meta,Intermediate,4.2
+1900,OSI Model Networking in Practice,Networking,"[1457,1714,1649]",35,IIT Delhi,Advanced,4.4
+1901,Core Programming Complete Guide,Programming,[],12,Oracle,Beginner,4.5
+1902,Practical Data Science with Projects,Data Science,[],15,IBM,Beginner,4.6
+1903,AI for AI Zero to Hero,AI,[1147],19,Linux Foundation,Intermediate,3.9
+1904,Vue.js Web Dev Certification Prep,Web Dev,[1357],18,Princeton,Intermediate,4.1
+1905,Serverless Cloud Bootcamp,Cloud,"[1741,1791,1624]",41,MIT OpenCourse,Advanced,4.3
+1906,Site Reliability DevOps Crash Course,DevOps,[],13,Stanford,Beginner,3.7
+1907,Linear Algebra Mathematics Fundamentals,Mathematics,[],15,Red Hat,Beginner,4.5
+1908,System Design Computer Sci Specialization,Computer Sci,"[1286,1306]",18,CNCF,Intermediate,4.3
+1909,Network Security Cybersecurity Crash Course,Cybersecurity,[1292],24,Atlassian,Intermediate,3.7
+1910,Agile Business Masterclass,Business,"[1263,1618]",26,Yale,Advanced,4.1
+1911,Technical Writing Communication with Projects,Communication,[],12,Google Cloud,Beginner,4.9
+1912,Design Thinking Design Certification Prep,Design,[],8,Linux Foundation,Beginner,5
+1913,Database Design Database for Beginners,Database,"[1431,1362]",24,Khan Academy,Intermediate,3.6
+1914,Kotlin Mobile Dev Professional,Mobile Dev,[1052],28,Atlassian,Intermediate,4.6
+1915,OSI Model Networking Crash Course,Networking,"[1232,1866,1171]",38,Harvard,Advanced,3.7
+1916,C++ and Programming Essentials,Programming,[],11,NPTEL,Beginner,4.1
+1917,Data Data Science Certification Prep,Data Science,[],14,Docker Inc,Beginner,4.2
+1918,Neural Networks AI Certification Prep,AI,[1252],22,IBM,Intermediate,3.7
+1919,React Web Dev Advanced,Web Dev,[1911],18,Linux Foundation,Intermediate,3.9
+1920,AWS Cloud Advanced,Cloud,"[1814,1488,1653]",46,Amazon AWS,Advanced,4.9
+1921,Infrastructure DevOps Essentials,DevOps,[],6,Harvard,Beginner,3.6
+1922,Calculus Mathematics Bootcamp,Mathematics,[],8,CNCF,Beginner,4.7
+1923,OS Concepts Computer Sci Professional,Computer Sci,"[1686,1222]",20,Red Hat,Intermediate,3.9
+1924,Ethical Hacking Cybersecurity Professional,Cybersecurity,"[1062,1711]",23,IBM,Intermediate,5
+1925,Agile Business Essentials,Business,"[1567,1289]",34,Khan Academy,Advanced,3.7
+1926,Academic Writing Communication in Practice,Communication,[],7,Infosys Springboard,Beginner,3.5
+1927,Prototyping Design Deep Dive,Design,[],7,Infosys Springboard,Beginner,3.6
+1928,NoSQL Database Zero to Hero,Database,[1722],19,freeCodeCamp,Intermediate,4.2
+1929,Cross-Platform Mobile Dev Bootcamp,Mobile Dev,"[1132,1582]",23,freeCodeCamp,Intermediate,3.5
+1930,SDN Networking Zero to Hero,Networking,"[1116,1921]",33,Oracle,Advanced,4.4
+1931,Mastering Programming Fundamentals,Programming,[],6,Amazon AWS,Beginner,3.9
+1932,Exploratory Data Science Zero to Hero,Data Science,[],7,IBM,Beginner,4.2
+1933,Deep Learning AI Bootcamp,AI,[1561],19,CNCF,Intermediate,3.9
+1934,Vue.js Web Dev Zero to Hero,Web Dev,[1406],26,Udemy,Intermediate,4.4
+1935,Cloud-Native Cloud Certification Prep,Cloud,"[1407,1781]",33,MIT OpenCourse,Advanced,4.5
+1936,Kubernetes DevOps Deep Dive,DevOps,[],6,Atlassian,Beginner,3.6
+1937,Linear Algebra Mathematics Complete Guide,Mathematics,[],8,CNCF,Beginner,4.9
+1938,Compilers Computer Sci Advanced,Computer Sci,[1926],22,deeplearning.ai,Intermediate,4
+1939,Cryptography Cybersecurity for Beginners,Cybersecurity,"[1791,1801]",19,Red Hat,Intermediate,4.8
+1940,Agile Business Professional,Business,"[1791,1563,1192]",28,Harvard,Advanced,4.6
+1941,Business English Communication Bootcamp,Communication,[],9,CNCF,Beginner,4.7
+1942,UI/UX Design Zero to Hero,Design,[],13,Yale,Beginner,5
+1943,SQL Database Specialization,Database,[1132],28,NPTEL,Intermediate,4.2
+1944,Cross-Platform Mobile Dev Certification Prep,Mobile Dev,[1872],21,Cisco,Intermediate,3.8
+1945,Network Admin Networking Essentials,Networking,"[1868,1302]",26,Infosys Springboard,Advanced,4.1
+1946,C++ and Programming Crash Course,Programming,[],14,Khan Academy,Beginner,4.8
+1947,Applied Data Science Essentials,Data Science,[],11,Docker Inc,Beginner,4.9
+1948,Machine Learning AI Fundamentals,AI,"[1217,1361]",26,IIT Delhi,Intermediate,4.4
+1949,HTML/CSS Web Dev Deep Dive,Web Dev,"[1177,1186]",20,MIT OpenCourse,Intermediate,3.9
+1950,Cloud-Native Cloud Certification Prep,Cloud,"[1761,1231,1648]",32,NPTEL,Advanced,3.9
+1951,CI/CD DevOps Zero to Hero,DevOps,[],14,Infosys Springboard,Beginner,3.8
+1952,Calculus Mathematics Advanced,Mathematics,[],13,IBM,Beginner,5
+1953,Compilers Computer Sci for Beginners,Computer Sci,"[1376,1326]",17,Stanford,Intermediate,3.8
+1954,Ethical Hacking Cybersecurity Crash Course,Cybersecurity,[1542],30,Atlassian,Intermediate,4.2
+1955,Agile Business in Practice,Business,"[1757,1536,1472]",29,deeplearning.ai,Advanced,4.8
+1956,Storytelling Communication Deep Dive,Communication,[],9,Atlassian,Beginner,3.8
+1957,Figma Design Crash Course,Design,[],10,Amazon AWS,Beginner,4.5
+1958,NoSQL Database Deep Dive,Database,[1897],22,Stanford,Intermediate,3.9
+1959,React Native Mobile Dev Fundamentals,Mobile Dev,[1187],20,Atlassian,Intermediate,3.7
+1960,Network Admin Networking Certification Prep,Networking,"[1679,1043,1148]",35,Meta,Advanced,4.9
+1961,Advanced Programming Deep Dive,Programming,[],7,Princeton,Beginner,4
+1962,Data Data Science Fundamentals,Data Science,[],12,Google Cloud,Beginner,4.3
+1963,AI for AI Deep Dive,AI,[1222],25,Coursera,Intermediate,4.3
+1964,Full-Stack Web Dev for Beginners,Web Dev,[1561],30,Atlassian,Intermediate,3.5
+1965,Azure Cloud with Projects,Cloud,"[1731,1751]",34,freeCodeCamp,Advanced,3.6
+1966,Docker DevOps with Projects,DevOps,[],11,MIT OpenCourse,Beginner,4.3
+1967,Linear Algebra Mathematics Essentials,Mathematics,[],5,Harvard,Beginner,3.7
+1968,OS Concepts Computer Sci Fundamentals,Computer Sci,[1496],25,IBM,Intermediate,4.8
+1969,Ethical Hacking Cybersecurity Masterclass,Cybersecurity,"[1712,1306]",17,Stanford,Intermediate,3.8
+1970,Agile Business Advanced,Business,"[1268,1676]",40,Infosys Springboard,Advanced,4.4
+1971,Storytelling Communication Essentials,Communication,[],15,IIT Delhi,Beginner,3.8
+1972,Interaction Design Zero to Hero,Design,[],13,Red Hat,Beginner,3.7
+1973,PostgreSQL Database Bootcamp,Database,[1321],19,Harvard,Intermediate,4.1
+1974,iOS Mobile Dev Certification Prep,Mobile Dev,"[1682,1456]",17,Amazon AWS,Intermediate,4
+1975,Network Admin Networking Essentials,Networking,"[1561,1652,1198]",38,MIT OpenCourse,Advanced,4.8
+1976,Python for Programming Specialization,Programming,[],5,Yale,Beginner,3.6
+1977,Big Data Data Science for Beginners,Data Science,[],9,IIT Delhi,Beginner,3.8
+1978,Reinforcement AI in Practice,AI,"[1636,1912]",28,Meta,Intermediate,4.7
+1979,Node.js Web Dev Crash Course,Web Dev,[1531],26,Yale,Intermediate,3.7
+1980,Cloud Cloud Masterclass,Cloud,"[1336,1481]",43,IBM,Advanced,4.3
+1981,Infrastructure DevOps Advanced,DevOps,[],6,IIT Delhi,Beginner,4.1
+1982,Linear Algebra Mathematics Bootcamp,Mathematics,[],7,CNCF,Beginner,3.8
+1983,Data Structures Computer Sci with Projects,Computer Sci,[1447],23,CNCF,Intermediate,4.7
+1984,Network Security Cybersecurity with Projects,Cybersecurity,[1096],30,Khan Academy,Intermediate,4.1
+1985,Advanced NLP with Transformers,AI,"[1022,1032]",28,Hugging Face,Advanced,4.9
+1986,Academic Writing Communication Certification Prep,Communication,[],5,Atlassian,Beginner,3.8
+1987,Interaction Design Bootcamp,Design,[],13,Meta,Beginner,5
+1988,Redis Database Essentials,Database,[1741],29,Yale,Intermediate,3.5
+1989,Flutter Mobile Dev Advanced,Mobile Dev,[1366],18,deeplearning.ai,Intermediate,4.8
+1990,Wireless Networking Networking for Beginners,Networking,"[1667,1572]",42,CNCF,Advanced,4.2
+1991,Circular Course Alpha,Test,[1992],5,TestOrg,Beginner,3.5
+1992,Circular Course Beta,Test,[1991],5,TestOrg,Beginner,3.5
+1993,AI for AI for Beginners,AI,[1382],20,Linux Foundation,Intermediate,4.7
+1994,Full-Stack Web Dev in Practice,Web Dev,"[1632,1717]",18,Atlassian,Intermediate,3.7
+1995,AWS Cloud Masterclass,Cloud,"[1627,1077]",47,CNCF,Advanced,4.4
+1996,Site Reliability DevOps Fundamentals,DevOps,[],11,Docker Inc,Beginner,4
+1997,Linear Algebra Mathematics Advanced,Mathematics,[],9,IIT Delhi,Beginner,4.8
+1998,Data Structures Computer Sci Professional,Computer Sci,"[1896,1902]",23,deeplearning.ai,Intermediate,4
+1999,Master AI Engineering - Capstone,AI,"[1985,1990]",40,Coursera,Advanced,5
+2000,Agile Business Advanced,Business,"[1444,1737]",39,Meta,Advanced,4.4

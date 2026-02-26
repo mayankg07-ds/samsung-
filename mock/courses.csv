@@ -1,0 +1,50 @@
+course_id,course_title,category,prerequisite_ids,est_hours,course_organization,course_difficulty,course_rating
+1001,Basic Python Programming,Programming,[],10,Coursera,Beginner,4.8
+1002,Introduction to Mathematics,Mathematics,[],8,Khan Academy,Beginner,4.7
+1003,Intro to Computer Science,Computer Sci,[],12,MIT OpenCourse,Beginner,4.9
+1004,English for Academic Writing,Communication,[],6,Coursera,Beginner,4.6
+1005,Data Tidying & Cleaning,Data Science,[],5,Coursera,Beginner,4.7
+1006,Intro to Statistics,Mathematics,[],8,Stanford,Beginner,4.8
+1007,Linux & Command Line Basics,DevOps,[],6,Linux Foundation,Beginner,4.6
+1008,Basic HTML & CSS,Web Dev,[],7,freeCodeCamp,Beginner,4.7
+1009,Introduction to Cloud Computing,Cloud,[],8,IBM,Beginner,4.6
+1010,Probability & Combinatorics,Mathematics,[],9,MIT OpenCourse,Beginner,4.8
+1011,Intermediate Python,Programming,[1001],15,Coursera,Intermediate,4.8
+1012,Calculus I,Mathematics,[1002],20,MIT OpenCourse,Intermediate,4.7
+1013,Data Structures,Computer Sci,[1003],18,Princeton,Intermediate,4.9
+1014,SQL & Relational Databases,Data Science,[1003],12,Stanford,Intermediate,4.7
+1015,JavaScript Fundamentals,Web Dev,[1008],14,freeCodeCamp,Beginner,4.8
+1016,Probability & Inference,Mathematics,"[1006, 1010]",16,Harvard,Intermediate,4.7
+1017,Linux System Administration,DevOps,[1007],10,Red Hat,Intermediate,4.6
+1018,AWS Cloud Practitioner,Cloud,[1009],12,Amazon AWS,Beginner,4.8
+1019,Version Control with Git,Programming,[1001],8,Atlassian,Beginner,4.7
+1020,Exploratory Data Analysis,Data Science,"[1005, 1006]",14,IBM,Intermediate,4.8
+1021,Algorithms & Complexity,Computer Sci,"[1013, 1011]",22,Stanford,Intermediate,4.9
+1022,Machine Learning Foundations,AI,"[1011, 1016]",20,Coursera,Intermediate,4.8
+1023,Data Visualization,Data Science,"[1020, 1011]",12,Tableau,Intermediate,4.7
+1024,React & Frontend Dev,Web Dev,"[1015, 1008]",18,Meta,Intermediate,4.8
+1025,Docker & Containers,DevOps,"[1017, 1019]",10,Docker Inc,Intermediate,4.7
+1026,Linear Algebra,Mathematics,"[1012, 1002]",18,MIT OpenCourse,Intermediate,4.8
+1027,Databases & ORM,Data Science,"[1014, 1011]",14,Carnegie Mellon,Intermediate,4.7
+1028,Node.js & REST APIs,Web Dev,"[1015, 1019]",16,freeCodeCamp,Intermediate,4.8
+1029,Cloud Architecture AWS,Cloud,"[1018, 1009]",14,Amazon AWS,Intermediate,4.7
+1030,Statistical Learning,AI,"[1016, 1026]",18,Stanford,Advanced,4.9
+1031,Deep Learning,AI,"[1022, 1026]",30,deeplearning.ai,Advanced,4.9
+1032,Natural Language Processing,AI,"[1022, 1021]",25,Stanford,Advanced,4.8
+1033,Full-Stack Web Development,Web Dev,"[1024, 1028]",35,The Odin Project,Advanced,4.9
+1034,MLOps & Model Deployment,DevOps,"[1022, 1025]",20,Coursera,Advanced,4.8
+1035,Big Data Engineering,Data Science,"[1027, 1029]",25,Google Cloud,Advanced,4.7
+1036,Advanced Algorithms,Computer Sci,"[1021, 1030]",28,MIT OpenCourse,Advanced,4.9
+1037,Computer Vision,AI,"[1031, 1023]",25,deeplearning.ai,Advanced,4.8
+1038,Kubernetes & Cloud-Native,Cloud,"[1025, 1029]",18,CNCF,Advanced,4.8
+1039,Reinforcement Learning,AI,"[1031, 1030]",30,DeepMind,Advanced,4.9
+1040,Distributed Systems,Computer Sci,"[1036, 1029]",28,MIT OpenCourse,Advanced,4.9
+1041,AI for Healthcare,AI,"[1037, 1032]",30,deeplearning.ai,Advanced,4.9
+1042,Quantum Computing Fundamentals,Computer Sci,"[1036, 1026]",35,IBM,Advanced,4.8
+1043,Data Engineering Capstone,Data Science,"[1035, 1027]",30,Google Cloud,Advanced,4.8
+1044,Advanced Cloud Security,Cloud,"[1038, 1029]",22,Amazon AWS,Advanced,4.7
+1045,LLM & Generative AI,AI,"[1032, 1039]",35,OpenAI,Advanced,4.9
+1985,Advanced NLP with Transformers,AI,"[1032, 1022]",28,Hugging Face,Advanced,4.9
+1991,Circular Course Alpha,Test,[1992],5,TestOrg,Beginner,3.5
+1992,Circular Course Beta,Test,[1991],5,TestOrg,Beginner,3.5
+1999,Master AI Engineering,AI,"[1045, 1040]",40,Coursera,Advanced,5.0
